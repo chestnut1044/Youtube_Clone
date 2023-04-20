@@ -7,6 +7,9 @@
 
 ## 👍컴포넌트
 - Header(헤더)
+- SearchBar(검색창)
+- Button(버튼)
+- Info(계정)
 - Sidebar(구현목록)
 - Container(메인 화면 컨테이너)
 - Video(비디오)
@@ -18,6 +21,7 @@
 - 컴포넌트 분류하기
 - 라우팅을 위한 페이지 설정
 
+
 ### ~ ing
 - 반응형
 - 헤더
@@ -27,11 +31,48 @@
 - 다크모드
 - 인급동
 - 영상마다 채널정보/시간정보 api로 받아오기
-- 
+
+
+
 
 ## 👍고민한 부분
-- 
-- 
+> **🤔 컴포넌트의 props로 react-icons의 컴포넌트를 넘겨줬을때 어떻게 사용할수 있을까?**
+![ㄴㄴ](public\images\icons.jpg) 
+실제 유튜브 화면을 보니 왼쪽의 햄버거, 음성녹음, 동영상업로드, 알림까지 모두 다 같은 버튼형식이라는것을 발견했다.<br/>
+![ㄴㄴ](public\images\icon1.png) 
+![ㄴㄴ](public\images\icon2.png) <br/>
+그래서 해당 버튼을 컴포넌트(Button)화 하기로 했는데, 그러기 위해서는 Header 컴포넌트에서 props로 해당 아이콘 이름을 전달해 주어야 한다.<br/><br/>
+> **Header 컴포넌트**
+>```jsx
+> import { GiHamburgerMenu } from "react-icons/gi";
+> export default function Header() {
+>  return (
+>    <header className={styles.header}>
+>      <Button icon={<GiHamburgerMenu/>} />
+>      <BsYoutube />
+>      <p>Youtube</p>
+>      <SearchBar />
+>    </header>
+>  );
+>}
+> ```
+> <br/>
+>
+> **Button 컴포넌트**
+>```jsx
+>import React from 'react';
+>export default function Button({ icon }) {
+>  return <button>{icon}</button>
+>}
+>```
+>
+> 어떻게 넘겨줄까 고민했는데 부모 컴포넌트에서 react-icons로부터 icon컴포넌트를 import해오고 컴포넌트를 그대로 넘겨줘서 button 컴포넌트에서는 기능만 클릭기능과 스타일링만 할 수 있게 하면된다.
+>
+>
+
+<br/>
+<br/>
+
 
 ## 👍 구현하면서 마주친 오류
 > **리액트 라우터를 사용해 페이지별로 경로를 잡아주는 도중 발생한 문제!**
