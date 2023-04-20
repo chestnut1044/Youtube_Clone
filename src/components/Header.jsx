@@ -1,10 +1,11 @@
 import React from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
   return (
-    <Header>
+    <header>
       헤더임 ㅋㅅㅋ
-    </Header>
+    </header>
   );
 }
 
