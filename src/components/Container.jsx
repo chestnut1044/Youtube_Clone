@@ -1,9 +1,16 @@
 import React from 'react';
+import styles from './styles/Container.module.css'
+import Video from './Video';
 
 export default function Container() {
   return (
-    <div>
-      컨테이너
+    <div className={styles.container}>
+      <Video />
+      <Video />
+      <Video />
+      <Video />
+      <Video />
+      <Video />
     </div>
   );
 }

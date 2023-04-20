@@ -1,6 +1,8 @@
 .sidebar{
   background-color: pink;
   top:0;
+  width: 240px;
+  flex-shrink: 0;
   height: 100vh;
   position: sticky;
   overflow-y: hidden;
