@@ -1,0 +1,11 @@
+.sidebar{
+  background-color: pink;
+  top:0;
+  height: 100vh;
+  position: sticky;
+  overflow-y: hidden;
+}
+
+.sidebar:hover{
+  overflow-y: auto;
+}
