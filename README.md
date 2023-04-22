@@ -180,7 +180,44 @@
 >```
 > 부모 컴포넌트에서 작성한 스타일을 자식 컴포넌트로 같이 넘기면 된다.
 >
+
+<br/>
+
+> **🤔 검색창에 들어가는 데이터는 어느 컴포넌트에서 만들어야 할까 ?**<br/>
 >
+>
+>
+>
+>
+
+<br/>
+
+> **🤔 긴 텍스트를 자르고 생략 부호(...)를 사용하여 표현하는 방법은 무엇일까?**<br/>
+>![ellipsis](public\images\ellipsis.png) <br/>
+> 내가 구현하고 있는 위의 사진처럼 오프라인 저장 동영상이 줄이 바뀌어져 보이는게 아니라 줄을 넘어가게 되면 (...)로 표기하는 방법이 무엇인지 알아보았다.<br/>
+> **sideBarList 컴포넌트**
+>```jsx
+>export default function SidebarList({ icon, type, message }) {
+>  return (
+>    <sidebarlist className={styles.sidebarlist}>
+>      <icon className={styles.icon}>{icon}</icon>
+>      <text className={styles.text}>{type}</text>
+>    </sidebarlist>
+>  );
+>}
+>```
+> **sideBarList CSS**
+>```css
+>.text{
+>  font-family: var(--font-main);
+>  font-size: 14px;
+>  overflow: hidden;
+>  cursor: pointer;
+>  white-space: nowrap;
+>  text-overflow: ellipsis;
+>}
+>```
+> text에서 overflow: hidden속성을 추가하여 넘치는 텍스트를 숨긴다.그 후 white-space: nowrap;을 속성을 사용해 넘치는 텍스트의 줄바꿈이 되지 않도록 설정한 후 넘치는 부분을 text-overflow: ellipsis; 로 설정하여 (...)으로 고쳐보았다.
 
 <br/>
 <br/>

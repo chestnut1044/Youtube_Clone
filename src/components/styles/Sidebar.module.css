@@ -1,13 +1,23 @@
-.sidebar{
-  background-color: pink;
-  top:0;
-  width: 240px;
+.sidebar {
   flex-shrink: 0;
+  top: 0;
+  width: 240px;
   height: 100vh;
+  margin: 0;
+  padding: 0;
   position: sticky;
   overflow-y: hidden;
 }
 
-.sidebar:hover{
+.sidebar:hover {
   overflow-y: auto;
 }
+
+.staticList{
+  padding: 12px 12px 0 12px ;
+}
+
+.subscribeList{
+  padding: 0 12px 0 12px ;
+}
+

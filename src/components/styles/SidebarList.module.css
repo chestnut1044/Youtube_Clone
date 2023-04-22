@@ -1,0 +1,28 @@
+.sidebarlist {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  padding: 0 12px 0 12px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sidebarlist:hover {
+  background-color: var(--color-semi-dk-gray);
+}
+
+.icon {
+  font-size: 20px;
+  margin: 0 24px 0 4px;
+}
+
+.text{
+  font-family: var(--font-main);
+  font-size: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
