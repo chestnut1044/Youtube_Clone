@@ -1,8 +1,21 @@
 .header{
   display: flex;
-  background-color:#666666;
+  height: 56px;
+  justify-content: space-between;
+  padding: 0 16px 0 16px;
 }
 
-.a{
-  font-size: 100px;
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+}
+
+.info{
+  display: flex;
+  align-items: center;
 }

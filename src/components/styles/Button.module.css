@@ -1,0 +1,57 @@
+.button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: var(--color-white);
+  border-radius: 50%;
+}
+
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--color-gray);
+}
+
+.button:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon {
+  color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+
+.tooltip {
+  position: absolute;
+  width: max-content;
+  padding: 8px;
+  border-radius: 5px;
+  transform: translateX(-50%) translateY(80%);
+  visibility: hidden;
+  background-color: var(--color-dk-gray);
+  color: var(--color-white);
+}
+
+/* .tooltip_none {
+  position: absolute;
+} */
+
+
+/* .tooltip::after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-white);
+  width: max-content;
+  height: max-content;
+  transform: rotate(45deg) translateX(-50%);
+  bottom: -5px;
+  left: 50%;
+} */

@@ -79,11 +79,78 @@
 >사이드바 오버 시 사이드바 스크롤만 조절할 수 있게 해보았다. 
 > 
 >
+<br/>
+
+>**🤔 버튼 오버시 설명창 띄우기!(relation과 absolute의 관계, ::after)**<br/>
+> 유튜브 헤더부터 코드 짜는데 버튼 오버시 다음과 같은 설명이 토글되는것이 보였다.
+> 이를 tooltip라고 한다고 한다
+>![ㄴㄴ](public\images\bubble.png) <br/>
+> **Button 컴포넌트**
+>```jsx
+>export default function Button({ icon, tooltip }) {
+>  return (
+>    <button className={styles.button} title={"icon"}>
+>      <div className={styles.icon}>{icon}</div>
+>      <p className={styles.tooltip}>{tooltip} </p>
+>    </button>
+>  );
+>}
+>```
+>
+> absolute는 부모 엘리먼트 내부에 속박되지 않고 독립된 배치 문맥을 가짐. 단, 상위 엘리먼트중 position 속성이 relative인 엘리먼트가 있다면 그중 가장 가까운 엘리먼트의 내무에서만 자유롭게 배치할수 있다.<br/>
+> 즉 나의 헤더 컴포넌트에서 tooltip은 아이콘의 바로 아래에서 위치되어야 하기 때문에 button에 relative 속성을 준 후 tooltip에서 absolute를 적용한뒤 위치를 조정해주면 button을 기준으로 위치가 잡힌다.
+> 잡힌 위치에 맞게 css 작업해주면 되는데 tooltip이 필요없는 버튼도 떠버린다.<br/>
+>![ㄴㄴ](public\images\tooltip.png) <br/>
+> 따라서 조건 삼항연산자를 통해 아래와 같이 스타일링 해주었다.
+> **Button 컴포넌트**
+>```jsx
+>export default function Button({ icon, tooltip }) {
+>  return (
+>    <button className={styles.button} onClick={handleClick}>
+>      <div className={styles.icon}>{icon}</div>
+>      <span className={tooltip === "" ? styles.tooltip_none : styles.tooltip}>
+>        {tooltip}
+>      </span>
+>    </button>
+>  );
+>}
+>```
+> **Button.module.css**
+>```css
+>.button {
+>  position: relative;
+>  width: 40px;
+>  height: 40px;
+>  margin: 0;
+>  padding: 0;
+>  border: none;
+>  background-color: var(--color-white);
+>  border-radius: 50%;
+>}
+>
+>.button:hover span {
+>  opacity: 1;
+>  visibility: visible;
+>}
+>
+>.tooltip {
+>  position: absolute;
+>  width: max-content;
+>  padding: 8px;
+>  border-radius: 5px;
+>  transform: translateX(-50%) translateY(80%);
+>  visibility: hidden;
+>  background-color: var(--color-dk-gray);
+>  color: var(--color-white);
+>}
+>```
+> Ref :  https://github.com/KumJungMin/CSS_ANIMATION_HOVER_ICON
+
+
+
 
 <br/>
 <br/>
-
-
 
 
 
