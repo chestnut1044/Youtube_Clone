@@ -1,21 +1,45 @@
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.header {
   display: flex;
   height: 56px;
   justify-content: space-between;
   padding: 0 16px 0 16px;
 }
-
-.logo{
+.header_lh{
+  display: flex;
+  align-items: center;
+}
+.logo {
   display: flex;
   align-items: center;
 }
 
-.searchbar{
+.youtubeicon {
+  cursor: pointer;
+  font-size: 28px;
+  padding-top: 2px;
+  color: var(--color-red);
+}
+
+.youtubelogo {
+  cursor: pointer;
+  padding-left: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.5px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+}
+
+.header_rh {
   display: flex;
   align-items: center;
 }
 
 .info{
-  display: flex;
-  align-items: center;
+  background-color: pink;
 }

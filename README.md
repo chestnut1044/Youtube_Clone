@@ -68,17 +68,19 @@
 >  return <button>{icon}</button>
 >}
 >```
-> 어떻게 넘겨줄까 고민했는데 부모 컴포넌트에서 react-icons로부터 icon컴포넌트를 import해오고 컴포넌트를 그대로 넘겨줘서 button 컴포넌트에서는 기능만 클릭기능과 스타일링만 할 수 있게 하면된다.<br/><br/>
->
->
+> 어떻게 넘겨줄까 고민했는데 부모 컴포넌트에서 react-icons로부터 icon컴포넌트를 import해오고 컴포넌트를 그대로 넘겨줘서 button 컴포넌트에서는 기능만 클릭기능과 스타일링만 할 수 있게 하면된다.
+
+<br/>
+
 > **🤔 사이드바의 컴포넌트를 어떻게 나누어 주면 좋을까?**<br/>
 >![ㄴㄴ](public\images\sidebar.png) <br/>
 > 사이드바의 항목들은 위 사진처럼 되어 있는데 각 항목들의 hover 효과나 사이즈가 동일해 같은 컴포넌트를 쓰는것이 좋을 것 같다. Sidebar 컴포넌트 내부에서 SidebarList컴포넌트를 구분선 별로 나눠서 하나의 태그로 감싸줄지, Sidebar에서 SidebarList 컴포넌트를 쭉 나열할지 고민하다가 유튜브의 사이드바는 정적으로 보이기 때문에 후자로 정했다. 반응형으로 사이즈를 줄여봐도 정적으로 보이기때문에 일단 나열하기로 했다.<br/><br/>
 > 
+
 > **🤔 사이드바에서 스크롤을 줄 수 있는 방법은?**<br/>
 >사이드바 오버 시 사이드바 스크롤만 조절할 수 있게 해보았다. 
 > 
->
+
 <br/>
 
 >**🤔 버튼 오버시 설명창 띄우기!(relation과 absolute의 관계, ::after)**<br/>
@@ -145,9 +147,40 @@
 >}
 >```
 > Ref :  https://github.com/KumJungMin/CSS_ANIMATION_HOVER_ICON
+>
+>
 
+<br/>
 
-
+> **🤔 같은 기능을 하는 컴포넌트지만 다른 스타일링을 해주고 싶다!**<br/>
+> searchbar 스타일링중 searchbar의 submit 버튼, 뿐만 아니라 다양한 곳에서 button 컴포넌트의 tooltip 효과가 들어있다는것을 알게됐다. <br/>
+>![button](public\images\button.png) <br/>
+>![searchbarbutton](public\images\searchbarbutton.png) <br/>
+>![ive](public\images\ive.png) <br/>
+> tooltip 효과를 매번 구현하는것은 재사용성이 떨어진다고 생각하여 유튜브내의 모든 버튼은 button 컴포넌트를 사용하는것이 좋다고 판단했고, 기존 searchbar에서 새로 만들었던 button 태그를 지우고 button 컴포넌트를 사용했다.<br/>
+> 하지만 button이 사용되는곳마다 같은 스타일링을 하는것이 아니기 때문에, 컴포넌트를 호출하는곳에서 따로 스타일링 해주는 법을 알아보았다.
+>
+> **SearchBar 컴포넌트(부모컴포넌트)**
+>```jsx
+>export default function SearchBar() {
+>  return (
+>    <searchbar className={styles.searchbar}>
+>        <Button icon={<IoIosSearch />} tooltip={"검색"} customstyle={styles.customstyle}/>
+>    </searchbar>
+>  );
+>}
+>```
+> **Button 컴포넌트(자식컴포넌트)**
+>```jsx
+>export default function Button({ icon, type, tooltip, customstyle }) {
+>  return (
+>    <button className={`${styles.button} ${customstyle}`} onClick={handleClick} />
+>  );
+>}
+>```
+> 부모 컴포넌트에서 작성한 스타일을 자식 컴포넌트로 같이 넘기면 된다.
+>
+>
 
 <br/>
 <br/>

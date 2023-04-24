@@ -2,7 +2,7 @@
   position: relative;
   width: 40px;
   height: 40px;
-  margin: 0;
+  margin-right: 15px;
   padding: 0;
   border: none;
   background-color: var(--color-white);
@@ -28,7 +28,6 @@
   font-size: 24px;
 }
 
-
 .tooltip {
   position: absolute;
   width: max-content;
@@ -39,19 +38,3 @@
   background-color: var(--color-dk-gray);
   color: var(--color-white);
 }
-
-/* .tooltip_none {
-  position: absolute;
-} */
-
-
-/* .tooltip::after {
-  content: '';
-  position: absolute;
-  background-color: var(--color-white);
-  width: max-content;
-  height: max-content;
-  transform: rotate(45deg) translateX(-50%);
-  bottom: -5px;
-  left: 50%;
-} */
