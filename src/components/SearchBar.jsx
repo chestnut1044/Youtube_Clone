@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 import styles from "./styles/SearchBar.module.css";
 import { IoIosSearch, IoMdClose } from "react-icons/io";
 
 export default function SearchBar() {
+  const [text, setText] = useState("검색");
   const handleSubmit = () => {};
   const handleChange = () => {};
-  const test = "검색";
   return (
     <searchbar className={styles.searchbar}>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="text"
           placeholder="검색"
-          value={test}
+          value={text}
           onChange={handleChange}
           className={styles.input}
         ></input>
