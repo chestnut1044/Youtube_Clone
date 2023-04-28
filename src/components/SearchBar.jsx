@@ -4,9 +4,16 @@ import styles from "./styles/SearchBar.module.css";
 import { IoIosSearch, IoMdClose } from "react-icons/io";
 
 export default function SearchBar() {
-  const [text, setText] = useState("검색");
-  const handleSubmit = () => {};
-  const handleChange = () => {};
+  const [text, setText] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+  const handleChange = (e) => {
+    setText(e.target.value);
+  };
+  const handleDelete = () => {
+    setText("");
+  };
   return (
     <searchbar className={styles.searchbar}>
       <form onSubmit={handleSubmit} className={styles.form}>
@@ -17,7 +24,12 @@ export default function SearchBar() {
           onChange={handleChange}
           className={styles.input}
         ></input>
-        <Button icon={<IoMdClose />} tooltip={""} customstyle={styles.close} />
+        <Button
+          icon={<IoMdClose />}
+          tooltip={""}
+          customstyle={styles.close}
+          onClick={handleDelete}
+        />
         <Button
           icon={<IoIosSearch />}
           tooltip={"검색"}
