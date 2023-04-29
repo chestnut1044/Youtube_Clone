@@ -1,12 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
-import Sidebar from '../components/Sidebar';
 
 export default function Result() {
   return (
     <div>
-    <Header></Header>
-    <Sidebar/>
+      결과를 알려줄게용 ㅎㅎ!
     </div>
   );
 }

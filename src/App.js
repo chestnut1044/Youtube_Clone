@@ -1,25 +1,31 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./pages/Root";
-import VideoPage from "./pages/VideoPage";
-import NotFound from "./pages/NotFound";
 import Result from "./pages/Result";
+import Container from "./pages/Container";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <NotFound />,
-  },
-  {
-    path: "동영상경로",
-    element: <VideoPage />,
-    errorElement: <NotFound />,
-  },
-  {
-    path: "a",
-    element: <Result />,
-    errorElement: <NotFound />,
+    children: [
+      {
+        // 메인
+        index: true,
+        element: <Container />,
+      },
+      {
+        // 검색 결과 알려줌
+        path: "result/서치결과",
+        element: <Result />,
+      },
+      {
+        // 에러 페이지
+        path: "*",
+        element: <NotFound />,
+      },
+    ],
   },
 ]);
 
