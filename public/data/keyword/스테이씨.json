@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "uOolQhN3UqVo2R7-VbnNgtYQmy4",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+  },
+  "items": [
+      {
+          "kind": "youtube#searchResult",
+          "etag": "d5c1e5rPFR6buLrAy-3_zo_glfM",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "DTG04YNkocM"
+          },
+          "snippet": {
+              "publishedAt": "2023-03-04T07:41:15Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "STAYC (스테이씨) - Teddy Bear | Show! MusicCore | MBC230304방송",
+              "description": "STAYC (스테이씨) - Teddy Bear | Show! MusicCore | MBC230304방송 #STAYC #TeddyBear #MBCKPOP More clips are ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/DTG04YNkocM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/DTG04YNkocM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/DTG04YNkocM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-03-04T07:41:15Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "7O2MJQK7lVzOxLRVavY0WV5-DL8",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "SxHmoifp0oQ"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-14T09:00:01Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "STAYC(스테이씨) &#39;Teddy Bear&#39; MV",
+              "description": "STAYC(스테이씨) Single Album [Teddy Bear] 'Teddy Bear' MV Streaming & Download ➫ https://STAYC.lnk.to/TeddyBear ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/SxHmoifp0oQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/SxHmoifp0oQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/SxHmoifp0oQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-14T09:00:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "S31zYjgML0R5ZFt_TcfTix7iwFw",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "Yps1yzjnp8U"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-18T07:34:34Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "STAYC (스테이씨) - Poppy | Show! MusicCore | MBC230218방송",
+              "description": "STAYC (스테이씨) - Poppy | Show! MusicCore | MBC230218방송 #STAYC #Poppy #MBCKPOP iMBC https://program.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/Yps1yzjnp8U/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/Yps1yzjnp8U/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/Yps1yzjnp8U/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-18T07:34:34Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "jgqBn-l-U0HtZgnLOdlkapkLntI",
+          "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ"
+          },
+          "snippet": {
+              "publishedAt": "2020-08-13T01:05:04Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "STAYC",
+              "description": "STAYC Official YouTube Channel.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://yt3.ggpht.com/pacVXuD2knTg6beZmcaEkXIduR-Q4KDRGzB5W6lXXcbGjioGDOtvsMs1tJYGqQTYV8htq9xZ=s88-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "medium": {
+                      "url": "https://yt3.ggpht.com/pacVXuD2knTg6beZmcaEkXIduR-Q4KDRGzB5W6lXXcbGjioGDOtvsMs1tJYGqQTYV8htq9xZ=s240-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "high": {
+                      "url": "https://yt3.ggpht.com/pacVXuD2knTg6beZmcaEkXIduR-Q4KDRGzB5W6lXXcbGjioGDOtvsMs1tJYGqQTYV8htq9xZ=s800-c-k-c0xffffffff-no-rj-mo"
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "upcoming",
+              "publishTime": "2020-08-13T01:05:04Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "XiKZLur1WwFqYbDMFLj0vN2s69E",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "74Owk2cieDQ"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-03T09:00:06Z",
+              "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+              "title": "[MV] STAYC(스테이씨) _ Poppy (Korean Ver.) (Performance Video)",
+              "description": "[MV] STAYC(스테이씨) _ Poppy (Korean Ver.) (Performance Video) K-POP Wonderland, 1theK K-POP의 모든 즐거움을 1theK( ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/74Owk2cieDQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/74Owk2cieDQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/74Owk2cieDQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "1theK (원더케이)",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-03T09:00:06Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "H9b1xW2WoDKLwdc_kl57Bp6vQEg",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "BAQcbJpD_ZQ"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-14T09:00:12Z",
+              "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+              "title": "[MV] STAYC(스테이씨) _ Teddy Bear",
+              "description": "[MV] STAYC(스테이씨) _ Teddy Bear K-POP Wonderland, 1theK K-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요!",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/BAQcbJpD_ZQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/BAQcbJpD_ZQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/BAQcbJpD_ZQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "1theK (원더케이)",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-14T09:00:12Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "gsx6rpS6yX0AjfQhUCwwT8rga90",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "6fkcQGNr-g0"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-15T14:00:04Z",
+              "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+              "title": "[BE ORIGINAL] STAYC(스테이씨) &#39;Teddy Bear&#39; (4K)",
+              "description": "[BE ORIGINAL] STAYC 'Teddy Bear' [비 오리지널] 스테이씨 '테디 베어' 스윗 생에 이런 행복 영상은 처음이쟈나   (1:17) 국힙원탑 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/6fkcQGNr-g0/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/6fkcQGNr-g0/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/6fkcQGNr-g0/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-15T14:00:04Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "BpSsNuT7Tqb84Ugtck769SxswnI",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "grG41kS4MUA"
+          },
+          "snippet": {
+              "publishedAt": "2022-02-21T09:00:01Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "STAYC(스테이씨) &#39;RUN2U&#39; MV",
+              "description": "STAYC(스테이씨) The 2nd Mini Album [YOUNG-LUV.COM] 'RUN2U' MV 2022.02.21 MON 6PM (KST) young-luv.com ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/grG41kS4MUA/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/grG41kS4MUA/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/grG41kS4MUA/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-02-21T09:00:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "flRGMzP-kEEuL5HHXR9XAcaZqzg",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "x-KTNMn3ujA"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-28T20:08:43Z",
+              "channelId": "UC4scK1OtvoEa95nmjdsPjYg",
+              "title": "[4K] STAYC (스테이씨) Poppy (파피) 교차편집 (Stage Mix)",
+              "description": "스테이씨 #STAYC #Poppy.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/x-KTNMn3ujA/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/x-KTNMn3ujA/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/x-KTNMn3ujA/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "SoulYeon솔연",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-28T20:08:43Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Danenqr_miVQMrVwo_hHJW9rHsU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "i01D5Qzz7wo"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-28T11:00:37Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "[STAY:SEE👀] #73 막내즈가 화보 찢었다🔥💖 | GQ &amp; Oat 촬영 현장 Behind",
+              "description": "[STAY:SEE  ] #73 막내즈가 화보 찢었다     | GQ & Oat 촬영 현장 Behind #STAYC #스테이씨 [STAYC Official SNS] Youtube ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/i01D5Qzz7wo/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/i01D5Qzz7wo/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/i01D5Qzz7wo/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-28T11:00:37Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "2f0XG7i0D1LdR3RE44FRDJf7E8s",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "CW7o5K5zzlY"
+          },
+          "snippet": {
+              "publishedAt": "2023-03-12T15:07:06Z",
+              "channelId": "UC4scK1OtvoEa95nmjdsPjYg",
+              "title": "[4K] STAYC (스테이씨) Teddy Bear (테디베어) 교차편집 (Stage Mix)",
+              "description": "STAYC #스테이씨 #Teddy_Bear.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/CW7o5K5zzlY/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/CW7o5K5zzlY/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/CW7o5K5zzlY/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "SoulYeon솔연",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-03-12T15:07:06Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "-atR_Azl_8d6g6y87tlnkk1J0dc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "KzBKZyds3eM"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-22T12:00:09Z",
+              "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+              "title": "[ENG SUB] &quot;우리 이래도 돼..?&quot; 스테이씨 피셜 찐텐 그 자체! 광기 가득한 NEW 연습실🤪🔥  | 아이돌 인간극장",
+              "description": "스테이씨 #STAYC #아이돌인간극장 스테이씨 광기... 미쳤다   선배님들 깜짝 놀랄 새 인사법 대공개 대본 없는 리얼(?) 다큐 [아이돌 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/KzBKZyds3eM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/KzBKZyds3eM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/KzBKZyds3eM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "KBS Kpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-22T12:00:09Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Ck_bwwGGIZQVTEU0SFDmDrrRTUQ",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "V7LJUS6oDn8"
+          },
+          "snippet": {
+              "publishedAt": "2023-03-11T07:15:10Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "STAYC (스테이씨) - DDU-DU DDU-DU (뚜두뚜두) | Show! MusicCore | MBC230311방송",
+              "description": "STAYC (스테이씨) - DDU-DU DDU-DU (뚜두뚜두) | Show! MusicCore | MBC230311방송 #STAYC #DDU_DU_DDU_DU ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/V7LJUS6oDn8/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/V7LJUS6oDn8/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/V7LJUS6oDn8/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-03-11T07:15:10Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "D6CLaipecqZB7Ok9srOkQ38L0M8",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "3iB6RQAC7Bk"
+          },
+          "snippet": {
+              "publishedAt": "2023-03-10T08:00:11Z",
+              "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+              "title": "[4K] STAYC(스테이씨) - “Teddy Bear” Band LIVE Concert│짱테이씨의 테디베어 밴드라이브🧸 [it’s KPOP LIVE 잇츠라이브]",
+              "description": "잇츠라이브를 찾아온 STAYC(스테이씨)!!   틴프레시 에너지를 가득히 담은 POP FUNK 장르의 곡, STAYC(스테이씨)의 'Teddy Bear' ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/3iB6RQAC7Bk/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/3iB6RQAC7Bk/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/3iB6RQAC7Bk/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "it's Live",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-03-10T08:00:11Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "kG6hthmKCEIvYjmusmR1Ddf6jcQ",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "pBUVk56wB_o"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-27T17:00:20Z",
+              "channelId": "UCznL5L7iTgTaqSBS5yF6g7w",
+              "title": "스테이씨 노래모음 (가사포함) | STAYC Playlist (Korean Lyrics)",
+              "description": "조회수 1만 회부터 유튜브 측에서 광고를 붙일 수 있습니다. ✓ 광고로 발생한 수익은 전부 저작권 소유자에게 지급됩니다. ✓ 영상 내 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/pBUVk56wB_o/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/pBUVk56wB_o/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/pBUVk56wB_o/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "밤공원",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-27T17:00:20Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "3bqqBSG1qqBi5OzG513KBwDxKHY",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "daSgKA98FZs"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T03:00:28Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "STAYC OFFICIAL FANCLUBSWITH 2nd MEMBERSHIP 모집",
+              "description": "STAYC OFFICIAL FANCLUBSWITH 2nd MEMBERSHIP 모집 #STAYC #스테이씨 [STAYC Official SNS] Youtube ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/daSgKA98FZs/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/daSgKA98FZs/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/daSgKA98FZs/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T03:00:28Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Et2J_Bgdnj8TRqYKVIPFn-fdXZc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "qCSAjAn5pqk"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T10:30:11Z",
+              "channelId": "UCE6hW6rNVW-c3YwUOOu7X4g",
+              "title": "[스테이씨 수민 / 윤] 팬미팅 스포해주세요",
+              "description": "본 채널은 수익 창출을 하지 않습니다 광고로 인한 수익은 모두 원작자에게 지급됩니다 #스테이씨 #stayc #teddybear ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/qCSAjAn5pqk/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/qCSAjAn5pqk/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/qCSAjAn5pqk/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "스테이씨비타민씨",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T10:30:11Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "0HwxOHXhrQN3hsDx6x0ogle_UBo",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "_kRh-BHh-HA"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-25T11:00:20Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "시은이의 Vlog #5 | SSINI 나는 LOG✨ 빙글 뱅글 돌아가는 시니의 하루 함께하실게유😵‍💫",
+              "description": "STAYC #스테이씨 [STAYC Official SNS] Youtube ▷ https://www.youtube.com/c/STAYC Instagram ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/_kRh-BHh-HA/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/_kRh-BHh-HA/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/_kRh-BHh-HA/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-25T11:00:20Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "SPM6zbpteTiGqpkA0L8tPWXkotU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "_X3r09dgbQg"
+          },
+          "snippet": {
+              "publishedAt": "2021-04-08T09:00:09Z",
+              "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+              "title": "[MV] STAYC(스테이씨) - ASAP",
+              "description": "[MV] STAYC(스테이씨) - ASAP K-POP Wonderland, 1theK K-POP의 모든 즐거움을 1theK(원더케이)에서 만나보세요! :) Welcome to ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/_X3r09dgbQg/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/_X3r09dgbQg/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/_X3r09dgbQg/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "1theK (원더케이)",
+              "liveBroadcastContent": "none",
+              "publishTime": "2021-04-08T09:00:09Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "P75Tkp-I35DsfbttGqPA7T4VxTc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "VilKjKdoQOc"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-14T10:36:08Z",
+              "channelId": "UCmth4hMyizG-_W9jidBqs_A",
+              "title": "STAYC Teddy Bear Lyrics (스테이씨 Teddy Bear 가사) (Color Coded Lyrics)",
+              "description": "All Rights Administered by High Up Entertainment • Artist: STAYC 스테이씨 • Song ♫: Teddy Bear • Album: Teddy Bear ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/VilKjKdoQOc/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/VilKjKdoQOc/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/VilKjKdoQOc/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Jaeguchi",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-14T10:36:08Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "6Prj3tIfFB7tnff-T4ZywNBcdAw",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "YkZvwVf7F9k"
+          },
+          "snippet": {
+              "publishedAt": "2022-11-16T15:00:06Z",
+              "channelId": "UCPuXEvuQxa9Sj_9J1LaUB6g",
+              "title": "STAYC（ステイシー） &#39;POPPY&#39; MV",
+              "description": "2022.11.23（WED） Japan Debut Single POPPY Release 11.17（THU）0:00より「POPPY」 MV プレミア公開！ 2022.11.16 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/YkZvwVf7F9k/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/YkZvwVf7F9k/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/YkZvwVf7F9k/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC Japan Official",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-11-16T15:00:06Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "51xtakf0nJYw7nCRxqyxQc9PEfk",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "svBJdvZ_UGg"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T08:01:01Z",
+              "channelId": "UCC-UFp5nCacmbkJaLKbta5A",
+              "title": "스테이씨 노래만 틀어주면 눈물 뚝 그치는 조카님 #스테이씨 #poppy",
+              "description": "",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/svBJdvZ_UGg/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/svBJdvZ_UGg/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/svBJdvZ_UGg/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "세완느",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T08:01:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "e04h5qMbGzRexfYaELotvMwgf2s",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "nuvZO2ljSmw"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-18T02:00:26Z",
+              "channelId": "UCw-kXdzxMdMdLNI0ZlFFbmA",
+              "title": "[ENG/JP] 🧸최애 앞에서 뚝딱거리는 주우재ㅣ스테이씨(STAYC) 초대석, 덕질, 팬미팅, 테디베어 라이브",
+              "description": "안녕하세요 대주주님들 주우재입니다 참 좋은 삶이네요^^ 인스타 https://bit.ly/3rrs0hN ✏️네이버 카페 https://bit.ly/2PCIO7C ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/nuvZO2ljSmw/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/nuvZO2ljSmw/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/nuvZO2ljSmw/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "오늘의 주우재",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-18T02:00:26Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "G8UlTdgwkU_Ct14Am44WaJtKrfc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "Rc2-mJP_tic"
+          },
+          "snippet": {
+              "publishedAt": "2023-02-19T09:17:23Z",
+              "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+              "title": "STAYC(스테이씨) - Teddy Bear @인기가요 inkigayo 20230219",
+              "description": "STAYC - Teddy Bear #SBSInkigayo_EP1171 스테이씨 - Teddy Bear #STAYC #TeddyBear SBS Inkigayo(인기가요) is a Korean ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/Rc2-mJP_tic/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/Rc2-mJP_tic/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/Rc2-mJP_tic/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "스브스케이팝 X INKIGAYO",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-02-19T09:17:23Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "VmC7_FjKaP71KdzTFbYNHPkLaUk",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "gMe1c4UegBY"
+          },
+          "snippet": {
+              "publishedAt": "2020-11-12T09:00:01Z",
+              "channelId": "UCod5V2dpnpJLklGvVOv5FcQ",
+              "title": "STAYC(스테이씨) &#39;SO BAD&#39; MV",
+              "description": "STAYC(스테이씨) The 1st Single Album [Star To A Young Culture] 'SO BAD' MV [Track List] 01. SO BAD 02. LIKE THIS #STAYC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/gMe1c4UegBY/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/gMe1c4UegBY/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/gMe1c4UegBY/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STAYC",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-11-12T09:00:01Z"
+          }
+      }
+  ]
+}

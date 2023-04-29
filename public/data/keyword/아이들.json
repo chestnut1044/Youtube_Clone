@@ -1,0 +1,856 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "jM4s6nj2pcOXeIzkG16X_NfhT0w",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kTTSrm5UfbiKJOoSdyjKvhGODLs",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow"
+            },
+            "snippet": {
+                "publishedAt": "2018-04-19T03:18:44Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "description": "(G)I-DLE Official YouTube Channel. (여자)아이들 공식 유튜브 채널입니다. 미연, 민니, 소연, 우기, 슈화 MIYEON, MINNIE, SOYEON, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/ytc/AGIKgqOgIPVUtgKLlC-f-k-oTT1fSCANs6UegGrOIbxdYw=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/ytc/AGIKgqOgIPVUtgKLlC-f-k-oTT1fSCANs6UegGrOIbxdYw=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/ytc/AGIKgqOgIPVUtgKLlC-f-k-oTT1fSCANs6UegGrOIbxdYw=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-04-19T03:18:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "F9i30um1P59dYH1nt0zICVs4Hu8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TFb3ITn3TyQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-27T15:00:17Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - Spoiler Alert : [I feel] #SHUHUA",
+                "description": "(여자)아이들((G)I-DLE) - Spoiler Alert : [I feel] #SHUHUA (G)I-DLE Official YouTube: http://www.youtube.com/@official_g_i_dle ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TFb3ITn3TyQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TFb3ITn3TyQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TFb3ITn3TyQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-27T15:00:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CMgIII6HEa505_Z1QegJVgwozSo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qg8vNx_jQYU"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-25T15:00:41Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - Character Introduction : [I feel]",
+                "description": "(여자)아이들((G)I-DLE) - Character Introduction : [I feel] (G)I-DLE Official YouTube: http://www.youtube.com/@official_g_i_dle ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qg8vNx_jQYU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qg8vNx_jQYU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qg8vNx_jQYU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-25T15:00:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "t1ASnhRONmdyowxNEvKNzTD1-7s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "riLm94E6EfE"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T13:00:46Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - I-LOG #19 민니의 파리 브이로그 😘 | (ENG/CHN)",
+                "description": "(여자)아이들((G)I-DLE) - I-LOG #19 민니의 파리 브이로그 | (ENG/CHN) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/riLm94E6EfE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/riLm94E6EfE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/riLm94E6EfE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T13:00:46Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "v8mTjx6tiKPI08TrUmt1Aqf5wu0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6P3fqtf3ibM"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-26T15:00:11Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - Spoiler Alert : [I feel] #YUQI",
+                "description": "(여자)아이들((G)I-DLE) - Spoiler Alert : [I feel] #YUQI (G)I-DLE Official YouTube: http://www.youtube.com/@official_g_i_dle ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6P3fqtf3ibM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6P3fqtf3ibM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6P3fqtf3ibM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-26T15:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2pTCXFUNQyOdN0NvWLgKdICaU24",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fCO7f0SmrDc"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-17T09:04:23Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - &#39;Nxde&#39; Official Music Video",
+                "description": "(여자)아이들((G)I-DLE) - 'Nxde' Official Music Video Composed by 소연, Pop Time, Kako Lyrics by 소연 Arranged by Pop Time, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-17T09:04:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eslYkcgnJW_nSAVP-8fpWpLxHFk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Jh4QFaPmdss"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-14T09:00:15Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - &#39;TOMBOY&#39; Official Music Video",
+                "description": "(여자)아이들((G)I-DLE) - 'TOMBOY' Official Music Video Composed by 소연, Pop Time, JENCI Lyrics by 소연 Arranged by Pop ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Jh4QFaPmdss/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Jh4QFaPmdss/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Jh4QFaPmdss/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-14T09:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "37iw8XTL4PW-LlBmTbmtjPFUEyE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "HU6K3TV2AdQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-22T09:00:09Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "[(G)맘대로 아이들] EP.01 이게...맞냐...? | 2023 컴백 세미나 (ENG/CHN) | (여자)아이들 ((G)I-DLE)",
+                "description": "(G)맘대로 아이들] EP.01 이게...맞냐...? | 2023 컴백 세미나 | (여자)아이들 ((G)I-DLE) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HU6K3TV2AdQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HU6K3TV2AdQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HU6K3TV2AdQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-22T09:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SUA2N0EQbUkVS6VqQtEJYJN4Njc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "IQFcZ-zMKlw"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-21T11:00:10Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "[뮤뱅 원테이크 4K] (여자)아이들((G)I-DLE) &#39;Nxde&#39; 4K Bonus Ver. @뮤직뱅크(Music Bank) 221021",
+                "description": "GIDLE #여자아이들 #Nxde #원테이크 #원테이크4K More from #KBSKPOP Twitter: https://twitter.com/StudioK_twt Instagram: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IQFcZ-zMKlw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IQFcZ-zMKlw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IQFcZ-zMKlw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Kpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-21T11:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zwBMmhj_ZGlz0Fql2Ja4kaHDBoY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SuMnpTc8zoU"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-07T03:00:07Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - &#39;말리지 마&#39; LIVE CLIP",
+                "description": "(여자)아이들((G)I-DLE) - '말리지 마' LIVE CLIP (G)I-DLE Official YouTube: http://www.youtube.com/gidleofficial​​​ (G)I-DLE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SuMnpTc8zoU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SuMnpTc8zoU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SuMnpTc8zoU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-07T03:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_t4EO_ul9zpB9bLV_n6ELSWQBzw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "S-ZwCu3FAVE"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T07:16:38Z",
+                "channelId": "UC8qA6dOJrt27aRY5Ch8xqqQ",
+                "title": "송우기 아이들",
+                "description": "송우기, 송우기 직캠, 송우기 통통, 송우기 트월킹, 송우기 삭발, 송우기 노래, 송우기 중국어, 송우기 중국방송, 송우기 런웨이, 송우기 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S-ZwCu3FAVE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S-ZwCu3FAVE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S-ZwCu3FAVE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Team Nancy McDonie",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T07:16:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-y6RYBpMp4siYhy9gwQrOPuv-ew",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "l6w5vkodVGg"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-29T07:00:28Z",
+                "channelId": "UCgqka_aEQUnwO-WuVg9kkvA",
+                "title": "반에 큰싸움이나서 담임선생님을 부른 아이들 #Shorts",
+                "description": "Shorts.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/l6w5vkodVGg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/l6w5vkodVGg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/l6w5vkodVGg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쭝이모",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-29T07:00:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Pc238uFAtcr2m-IYy_-k9_TaNr8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7mWQVtL6YZo"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-02T04:37:14Z",
+                "channelId": "UCgZpkD3NZMXbo1xKYmfLmmA",
+                "title": "(여자)아이들 수진 최근근황 l 백화점에서 발견된 서수진 반응 l 미연 민니 소연 우기 슈화 (G)IDOL",
+                "description": "구독  , 좋아요  , 알람(\"  \") 부탁드립니다 #서수진 #소연 #여자아이들.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7mWQVtL6YZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7mWQVtL6YZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7mWQVtL6YZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "이슈조아",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-02T04:37:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FsnZd0HVfqXTMTsrxgaIfR_UoF4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "d-FKsmUhG1E"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-27T01:08:27Z",
+                "channelId": "UCzKFT7cBIKO9Dapikf6e3ow",
+                "title": "(여자)아이들이 우리 학교에?! | 탐스어택 도전기 | TEASER",
+                "description": "(여자)아이들의 탐스어택 도전기   5월 3일 6PM 딩고스튜디오(@dingostudio)에서 본편 COMING SOON ! 탐스어택 이벤트 내용이 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/d-FKsmUhG1E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/d-FKsmUhG1E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/d-FKsmUhG1E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "롯데칠성 LOTTE CHILSUNG",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-27T01:08:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GcAeLnFi0i2cGP7l-YTxn4betbo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lSyjv04em5w"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-18T06:11:24Z",
+                "channelId": "UCK8S6QMrTk1G8TYQwIyDo-w",
+                "title": "(G)I-DLE PLAYLIST 2022 ALL SONGS UPDATED | (여자)아이들 노래 모음",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lSyjv04em5w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lSyjv04em5w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lSyjv04em5w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "LQ KPOP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-18T06:11:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "E3BcjrPUKS9uy7F4046Bu9ctgIs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lYhsX1FXA1U"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-26T09:00:35Z",
+                "channelId": "UCLvhr40dgoBcV4XBlOhauNw",
+                "title": "민니 ((여자)아이들) - PINK YOUR MOMENT [Music Video]",
+                "description": "X-RATED - PINK YOUR MOMENT Music Collaboration with Minnie of (G)I-DLE X-RATED reveals a new campaign collaborating ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lYhsX1FXA1U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lYhsX1FXA1U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lYhsX1FXA1U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "워너뮤직코리아 (Warner Music Korea)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-26T09:00:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pW5OLKxBRcAmm_ElWBFkXW73vcs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MfTv2OX4Nz4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-07T09:00:12Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "[(G)맘대로 아이들] EP.06 흥 없다면서요... | 2023 컴백 세미나 (ENG/CHN) | (여자)아이들 ((G)I-DLE)",
+                "description": "(G)맘대로 아이들] EP.06 흥 없다면서요... | 2023 컴백 세미나 | (여자)아이들 ((G)I-DLE) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MfTv2OX4Nz4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MfTv2OX4Nz4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MfTv2OX4Nz4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-07T09:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Xl5B8vJWzV57QR1j6fNLEMxdSy8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "muttupBkGTg"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-02T11:00:20Z",
+                "channelId": "UC9LcN9O8amxNcfu0fwGqwgQ",
+                "title": "(ENG)예능감 NEVER DIE🔥 교관도 웃겨버리는 (여자)아이들  | 돌들의 침묵 | (G)I-DLE ((여자)아이들) ‘TOMBOY’",
+                "description": "돌침수련회장에 찾아온 Red Five Diamonds   절대 잠들지 않는 (여자)아이들의 수련회부터 장기자랑까지 바로 확인합시다   #돌 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/muttupBkGTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/muttupBkGTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/muttupBkGTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MUPLY 뮤플리",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-02T11:00:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LwRBrs67tGXm12bHyIpF4NKaxX8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9eSrrU8HIqs"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-12T09:00:09Z",
+                "channelId": "UC655O6EdNB0UlWiPMmgxJGw",
+                "title": "이악물고 오빠라고 안하는 아이들(소연,슈화,우기)",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9eSrrU8HIqs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9eSrrU8HIqs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9eSrrU8HIqs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "너 일루와바",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-12T09:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TaCOQctiiT6S_5QR6ItC6PdMcIE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bXxEgRptMD0"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-07T04:43:07Z",
+                "channelId": "UC4scK1OtvoEa95nmjdsPjYg",
+                "title": "[4K] (여자)아이들 ((G)I-DLE) TOMBOY (톰보이) 교차편집 (Stage Mix)",
+                "description": "여자아이들 #TOMBOY.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bXxEgRptMD0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bXxEgRptMD0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bXxEgRptMD0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SoulYeon솔연",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-07T04:43:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "D42ZS4EHt9APU85E84QgckiuL-o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "URh5fgVufm4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-23T15:00:19Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - Announcement : [I feel] New Episodes",
+                "description": "(여자)아이들((G)I-DLE) - Announcement : [I feel] New Episodes (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/URh5fgVufm4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/URh5fgVufm4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/URh5fgVufm4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-23T15:00:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gWDXfo55U7E8CBdezKX1IKd3XaM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "r0MrzKxPqxw"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-29T09:00:37Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "[(G)맘대로 아이들] EP.03 대환장 주주총회 | 2023 컴백 세미나 (ENG/CHN) | (여자)아이들 ((G)I-DLE)",
+                "description": "(G)맘대로 아이들] EP.03 대환장 주주총회 | 2023 컴백 세미나 | (여자)아이들 ((G)I-DLE) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/r0MrzKxPqxw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/r0MrzKxPqxw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/r0MrzKxPqxw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-29T09:00:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "irfnR5E0Sv6FGF6pdRYWyp85A_A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ql-q-biGUlU"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-18T14:00:03Z",
+                "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+                "title": "[BE ORIGINAL] (G)I-DLE ((여자)아이들) &#39;TOMBOY&#39; (4K)",
+                "description": "[BE ORIGINAL] (여자)아이들 'TOMBOY' [비 오리지널] (G)I-DLE 'TOMBOY' 네버버들아 어마어마한 거 왔다  _   아이들의 케이팝 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ql-q-biGUlU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ql-q-biGUlU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ql-q-biGUlU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-18T14:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "w546jdvTKELHK-KGbvoQmxT4vZ8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ar1ZMNKDbKI"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-12T09:00:05Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "[(G)맘대로 아이들] EP.07 특 시키면 일단 함 | 2023 컴백 세미나 (ENG/CHN) | (여자)아이들 ((G)I-DLE)",
+                "description": "(G)맘대로 아이들] EP.07 특 시키면 일단 함 | 2023 컴백 세미나 | (여자)아이들 ((G)I-DLE) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ar1ZMNKDbKI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ar1ZMNKDbKI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ar1ZMNKDbKI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-12T09:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "16_COuCqfOO2TdM_rw3D-y3WIYE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PwsQ30b-A-k"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-05T09:00:27Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "[(G)맘대로 아이들] EP.05 다음 컴백의 운명은...?! | 2023 컴백 세미나 (ENG/CHN) | (여자)아이들 ((G)I-DLE)",
+                "description": "(G)맘대로 아이들] EP.05 다음 컴백의 운명은...?! | 2023 컴백 세미나 | (여자)아이들 ((G)I-DLE) (G)I-DLE Official YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PwsQ30b-A-k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PwsQ30b-A-k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PwsQ30b-A-k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-05T09:00:27Z"
+            }
+        }
+    ]
+}

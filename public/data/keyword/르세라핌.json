@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "25HsHkcdXdzEczRNs7tNmnPW0Hk",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+  },
+  "items": [
+      {
+          "kind": "youtube#searchResult",
+          "etag": "evKVE6kIOXnpz-J3OJIJXddoZds",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "dJAt3SfnA3w"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T15:00:01Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) &#39;UNFORGIVEN (feat. Nile Rodgers)&#39; M/V TEASER 2",
+              "description": "Creative Director : NU KIM Visual Creative Operation Managing : Yujoo Kim Style Directing : Yoon Cho, Yuli Song Brand ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/dJAt3SfnA3w/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/dJAt3SfnA3w/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/dJAt3SfnA3w/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T15:00:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "sGrc330w76eHQstvsGOK66NqnMQ",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "iW5X3QUk41s"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:39:32Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "💎아형리미티드💎 [풀버전] ※최초 공개※ 르세라핌이 들려줄 새로운 이야기〈UNFORGIVEN〉♬",
+              "description": "[아는형님 유튜브 채널 단독│아형리미티드] 아형리미티드   [풀버전] ※최초 공개※ 르세라핌이 들려줄 새로운 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/iW5X3QUk41s/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/iW5X3QUk41s/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/iW5X3QUk41s/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:39:32Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "ZSaLqIvaU8wXDT1pab_imznwwVU",
+          "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g"
+          },
+          "snippet": {
+              "publishedAt": "2021-10-19T08:33:17Z",
+              "channelId": "UCs-QBT4qkj_YiQw1ZntDO3g",
+              "title": "LE SSERAFIM",
+              "description": "LE SSERAFIM Official Youtube 르세라핌 공식 유튜브.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://yt3.ggpht.com/9CH5aJYgkoM-ZDV-oIF5oQ8uKT3_dMzbTmjMehkPYmyg59CyDaTq7tVib2L5sS6C9srimy2r=s88-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "medium": {
+                      "url": "https://yt3.ggpht.com/9CH5aJYgkoM-ZDV-oIF5oQ8uKT3_dMzbTmjMehkPYmyg59CyDaTq7tVib2L5sS6C9srimy2r=s240-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "high": {
+                      "url": "https://yt3.ggpht.com/9CH5aJYgkoM-ZDV-oIF5oQ8uKT3_dMzbTmjMehkPYmyg59CyDaTq7tVib2L5sS6C9srimy2r=s800-c-k-c0xffffffff-no-rj-mo"
+                  }
+              },
+              "channelTitle": "LE SSERAFIM",
+              "liveBroadcastContent": "none",
+              "publishTime": "2021-10-19T08:33:17Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "PnkyemS_qIadG_UUwdhyavXQKxo",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "ZT1y0sjRHIE"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T14:34:17Z",
+              "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+              "title": "멤버도 초면인 카즈하의 화난 모습부터 사춘기 온 은채까지ㅋㅋ 르세라핌(LE SSERAFIM)의 거침 없는 폭로전↗｜아는형님｜JTBC 230429 방송 외",
+              "description": "아는형님을 뒤집어 놓은 르세라핌 폭로 토크↗ #아는형님 #핫클립 #르세라핌 [JTBC봐야지] 구독하기☞ http://asq.kr/VgFZ3 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/ZT1y0sjRHIE/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/ZT1y0sjRHIE/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/ZT1y0sjRHIE/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "JTBC Voyage",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T14:34:17Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "57wOuuT9457OlG7g23tp2MtPLUY",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "OWoEycYAbqo"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T14:42:39Z",
+              "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+              "title": "무대 찢는 빌런 르세라핌(LE SSERAFIM) UNFORGIVEN 최초 공개😈 심장 마구 저격하는 퍼포먼스 장인 르세라핌 메들리↗｜아는형님｜JTBC 230429 방송 외",
+              "description": "뮤지컬부터 발레까지 다 되는 르세라핌 착한줄 알았는데 심장 막 저격하네..   #아는형님 #핫클립 #르세라핌 [JTBC봐야지] 구독 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/OWoEycYAbqo/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/OWoEycYAbqo/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/OWoEycYAbqo/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "JTBC Voyage",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T14:42:39Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "4EQXaxWiqOaQB7jGe8Ws1goztbI",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "oIPGH4FQsIM"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T12:23:09Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "당당한 매력을 보여준 르세라핌의 〈FEARLESS+ANTIFRAGILE〉♬ | 아는 형님 381회 | JTBC 230429 방송",
+              "description": "당당한 매력을 보여준 르세라핌의 〈FEARLESS+ANTIFRAGILE〉♬ #아는형님 #르세라핌 #히트곡 #메들리 공홈에서 리플레이 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/oIPGH4FQsIM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/oIPGH4FQsIM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/oIPGH4FQsIM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T12:23:09Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "4GeoSrUjBQ4V90c7ZVkd_zP8EMA",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "kQfC4zROPQo"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:38:48Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "💎아형리미티드💎 [리허설 버전] ※최초 공개※ 피어나와 함께하면 모험이다✨ 르세라핌의〈UNFORGIVEN〉♬",
+              "description": "[아는형님 유튜브 채널 단독│아형리미티드] 아형리미티드   [리허설 버전] ※최초 공개※ 피어나와 함께하면 모험이다✨ 르세라핌 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/kQfC4zROPQo/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/kQfC4zROPQo/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/kQfC4zROPQo/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:38:48Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "tU4Qst2vYDnSUiWVNQ3TYcGcMjI",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "m2gpYGhQIG8"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:42:14Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "[아형✪하이라이트] (본격 르세라핌 혜자 방송) 너네가 뭘 좋아할지 몰라서 발레리나부터 사춘기 K학생(?)까지 준비했어ღ | 아는 형님 | JTBC 230429 방송",
+              "description": "[아형✪하이라이트] (본격 르세라핌 혜자 방송) 너네가 뭘 좋아할지 몰라서 발레리나부터 사춘기 K학생(?)까지 준비했어ღ #아는형님 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/m2gpYGhQIG8/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/m2gpYGhQIG8/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/m2gpYGhQIG8/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:42:14Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "pUA6R82aF6YVaRElR0_RGR0IjHc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "rKqjq5q4mGg"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T15:00:08Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) &#39;UNFORGIVEN (feat. Nile Rodgers)&#39; M/V TEASER 2",
+              "description": "Creative Director : NU KIM Visual Creative Operation Managing : Yujoo Kim Style Directing : Yoon Cho, Yuli Song Brand ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/rKqjq5q4mGg/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/rKqjq5q4mGg/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/rKqjq5q4mGg/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T15:00:08Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Guv2pieLbL3TG1NxkmIZyhVBEOA",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "YqKR6wOAgFI"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T14:33:44Z",
+              "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+              "title": "＂ 사실 비즈니스 사이인 거지 ＂ 유라인으로 갈아탄 호동의 절친 사쿠라?! 첫 출연에 강호동 기강잡는 르세라핌(LE SSERAFIM)ㅋㅋㅋ｜아는형님｜JTBC 230429 방송 외",
+              "description": "유라인이 된 호동의 비즈니스 절친 사쿠라?! 첫 출연에 강호동 잡는 예능만렙 르세라핌ㅋㅋㅋ #아는형님 #핫클립 #르세라핌 [JTBC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/YqKR6wOAgFI/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/YqKR6wOAgFI/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/YqKR6wOAgFI/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "JTBC Voyage",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T14:33:44Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "E_8iiQfpzTbceez3sntcEgXRUj0",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "4F1zwU1owE4"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T14:42:51Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "[아형✪하이라이트] 김채원 피셜 : 이번에 대박 날 거 같아... UNFORGIVEN으로 돌아온 &#39;석양의 무법자&#39; 르세라핌👿 | 아는 형님 | JTBC 230429 방송",
+              "description": "[아형✪하이라이트] 김채원 피셜 : 이번에 대박 날 거 같아... UNFORGIVEN으로 돌아온 '석양의 무법자' 르세라핌   #아는형님 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/4F1zwU1owE4/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/4F1zwU1owE4/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/4F1zwU1owE4/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T14:42:51Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "OtcuizUzBBxbObTIDL-ze-hNIJ0",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "SNRaI81GHBE"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T10:08:41Z",
+              "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+              "title": "[LE SSERAFIM COMEBACK SHOW UNFORGIVEN] 르세라핌 COMEBACK SHOW 5월 1일 7PM Coming Soon!",
+              "description": "[LE SSERAFIM COMEBACK SHOW UNFORGIVEN] 르세라핌 컴백쇼 UNFORGIVEN Teaser 5.1 (Mon) 7PM (KST) Mnet / M2 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/SNRaI81GHBE/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/SNRaI81GHBE/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/SNRaI81GHBE/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "M2",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T10:08:41Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "2dAJc_erEVIRZi9L4JuCGgxnvio",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "gJbiQCPHPMg"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-27T15:00:01Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) &#39;UNFORGIVEN (feat. Nile Rodgers)&#39; M/V TEASER 1",
+              "description": "Creative Director : NU KIM Visual Creative Operation Managing : Yujoo Kim Style Directing : Yoon Cho, Yuli Song Brand ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/gJbiQCPHPMg/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/gJbiQCPHPMg/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/gJbiQCPHPMg/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-27T15:00:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "p5Zd0HanV-xuurYulubnAXokx0w",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "-Id4ESrTfNc"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T14:45:18Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "★우주 최초 공개★ 겁 없이 달리는 르세라핌의 신곡 〈UNFORGIVEN〉♬ | 아는 형님 381회 | JTBC 230429 방송",
+              "description": "우주 최초 공개☆ 겁 없이 달리는 르세라핌의 신곡 〈UNFORGIVEN〉♬ #아는형님 #르세라핌 #신곡 #UNFORGIVEN 공홈에서 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/-Id4ESrTfNc/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/-Id4ESrTfNc/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/-Id4ESrTfNc/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T14:45:18Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "jm97DqeN_UblO6tJ9jTP7YvuC6U",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "231LLVIUNVk"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T00:12:42Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "[선공개] ↖UNFORGIVEN으로 컴백↗ 완전체로 돌아온 르세라핌, 예능감 폼 미쳤다....💕 | 아는 형님 381회",
+              "description": "[선공개] ↖UNFORGIVEN으로 컴백↗ 완전체로 돌아온 르세라핌, 예능감 폼 미쳤다....   #아는형님 #LESSERAFIM #르세라핌 토요일 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/231LLVIUNVk/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/231LLVIUNVk/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/231LLVIUNVk/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T00:12:42Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "TpapvYhWaT3-0D50y99NtsNmLzg",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "h-_fpAag8E0"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:42:34Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "[아형✪하이라이트] 예능 고수들 앞에서 뻔뻔하게 우기는 &#39;르세라핌&#39; 아무튼 귀여움 ㅇㅇ... (반박 불가) | 아는 형님 | JTBC 230429 방송",
+              "description": "[아형✪하이라이트] 예능 고수들 앞에서 뻔뻔하게 우기는 '르세라핌' 아무튼 귀여움 ㅇㅇ... (반박 불가) #아는형님 #하이라이트 #르 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/h-_fpAag8E0/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/h-_fpAag8E0/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/h-_fpAag8E0/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:42:34Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "ZN-l2KPMBFaUuBsWcr5ESFnz8Y0",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "oDBGEext4Tg"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T11:30:01Z",
+              "channelId": "UCu976UrWTIh3-3c8WImzVFA",
+              "title": "아이즈원[IZ*ONE], 2년 만에 정상에 올라선 그녀들. 모든 멤버들의 최신 근황(아이브, 르세라핌, AKB48, 솔로활동 등)(ENG)",
+              "description": "English CC available! 아이브, 르세라핌, 솔로 가수, 배우, 예능 등 이제는 많은 분야에서 독보적인 활약을 보여주고 있는 장원영, ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/oDBGEext4Tg/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/oDBGEext4Tg/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/oDBGEext4Tg/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Doyouram - Everyday K-Culture",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T11:30:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "OxtDy519PTYEBWSsjIT7H-go4mc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "fF1DiDzl50Q"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:04:42Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "풋풋 그 자체, 르세라핌이 추는 〈아틀란티스 소녀〉♬ | 아는 형님 381회 | JTBC 230429 방송",
+              "description": "풋풋 그 자체, 르세라핌이 추는 〈아틀란티스 소녀〉♬ #아는형님 #르세라핌 #보아 #아틀란티스소녀 공홈에서 리플레이 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/fF1DiDzl50Q/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/fF1DiDzl50Q/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/fF1DiDzl50Q/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:04:42Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "4f4gnYmLyncDfMBEmeV-I3kY7i4",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "pKSyuwhVMvY"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-23T15:00:01Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) &#39;UNFORGIVEN&#39; HIGHLIGHT MEDLEY",
+              "description": "Creative Director : NU KIM Visual Creative Coordinating : Yujoo Kim Style Directing : Yoon Cho, Yuli Song Brand Experience ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/pKSyuwhVMvY/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/pKSyuwhVMvY/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/pKSyuwhVMvY/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-23T15:00:01Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "uQbgE6k8bd7QlTxIlYxZswPrOXY",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "FkZkodVcyGU"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T13:14:16Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "우린 르세라핌! 긍정 파워 넘치는😎 〈파이팅 해야지〉♬ | 아는 형님 381회 | JTBC 230429 방송",
+              "description": "우린 르세라핌! 긍정 파워 넘치는   〈파이팅 해야지〉♬ #아는형님 #르세라핌 #성대모사 #부석순 #파이팅해야지 공홈에서 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/FkZkodVcyGU/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/FkZkodVcyGU/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/FkZkodVcyGU/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T13:14:16Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Q3rjJ2An7e0jCxyycpTOKs_0RQU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "pyf8cbqyfPs"
+          },
+          "snippet": {
+              "publishedAt": "2022-10-16T14:58:08Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) &#39;ANTIFRAGILE&#39; OFFICIAL M/V",
+              "description": "Creative Director : NU KIM Visual Creative : Yujoo Kim, Gabriel Cho, Yoon Cho, Sungwoong Moon A&R : Kyuyoung Kim, Sewon ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-10-16T14:58:08Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "K74k1ZzVIGAs0j9sPGEA5K5w-Bc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "ZXCb9397iEs"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-27T08:30:09Z",
+              "channelId": "UCpjm6R2yqu1GZjYtsIiXR5w",
+              "title": "EP.2 르세라핌과 한,미,일 놀이 비교 | ODG",
+              "description": "2023. Studio Solfa All rights reserved.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/ZXCb9397iEs/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/ZXCb9397iEs/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/ZXCb9397iEs/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "odg",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-27T08:30:09Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "-QkT7RIoyw5UA_N33f5tX-bz0w4",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "hxVv7BJYjlc"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-09T15:00:02Z",
+              "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+              "title": "LE SSERAFIM (르세라핌) UNFORGIVEN TRAILER &#39;Burn the Bridge&#39;",
+              "description": "Creative Director : NU KIM Visual Creative Operation Managing : Yujoo Kim Style Directing : Yoon Cho, Yuli Song Brand ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/hxVv7BJYjlc/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/hxVv7BJYjlc/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/hxVv7BJYjlc/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "HYBE LABELS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-09T15:00:02Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "3NjK627Fth9zEvES3ay08YM9opA",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "KMIhIdDSQ_A"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-25T12:30:10Z",
+              "channelId": "UCpjm6R2yqu1GZjYtsIiXR5w",
+              "title": "EP.1 &quot;안녕 Hi こんにちは&quot; 르세라핌의 한미일 친구 만들기 | ODG",
+              "description": "NEXT EPISODE : 4월 27일 오후 5시 c2023. Studio Solfa All rights reserved.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/KMIhIdDSQ_A/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/KMIhIdDSQ_A/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/KMIhIdDSQ_A/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "odg",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-25T12:30:10Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "0ZQvwYJFIKYK-J-QPLcAIlifXL8",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "6sr1MNElDlc"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-27T07:00:10Z",
+              "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+              "title": "[단독 선공개] LE SSERAFIM 르세라핌 &#39;FEARLESS+ANTIFRAGILE&#39; 리허설 캠 ♬",
+              "description": "[단독 선공개] LE SSERAFIM 르세라핌 'FEARLESS+ANTIFRAGILE' 리허설 캠 ♬ #아는형님 #LESSERAFIM #르세라핌 토요일 저녁 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/6sr1MNElDlc/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/6sr1MNElDlc/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/6sr1MNElDlc/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아는형님 Knowingbros",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-27T07:00:10Z"
+          }
+      }
+  ]
+}

@@ -8,7 +8,7 @@ export default function SearchBar() {
   const [text, setText] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (e) => {
-    navigate(text)
+    navigate(`result/${text}`)
     e.preventDefault();
   };
   const handleChange = (e) => {

@@ -1,0 +1,856 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "cv93lnUugzldUtvNA2xwF4HU1K4",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "u4CGhKQj7iQi46Xs9YNv55NGNck",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pbA0n7fENHI"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-29T06:54:52Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NMIXX (엔믹스) in 코노돌🎉 - (BTS - Danger, EXO - Monster) | Show! MusicCore| MBC230429방송",
+                "description": "NMIXX (엔믹스) in 코노돌   - (BTS - Danger, EXO - Monster) | Show! MusicCore| MBC230429방송 #NMIXX #CONODOLL ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pbA0n7fENHI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pbA0n7fENHI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pbA0n7fENHI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-29T06:54:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LrOiuC0liaMaJJaHkDcuEflBYyQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5eh6Vj_vVg4"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-12T15:00:03Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "NMIXX &quot;Young, Dumb, Stupid&quot; M/V",
+                "description": "NMIXX \"Young, Dumb, Stupid\" M/V NMIXX 'expérgo' Pre-order ▷ https://biglink.to/expergo NMIXX 'expérgo' Pre-save ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5eh6Vj_vVg4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5eh6Vj_vVg4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5eh6Vj_vVg4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-12T15:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VS4zaLU8gVWRY6BHd114YzsIjUI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "piwcj7GlWP4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-27T19:00:19Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "[STAGE MIX🪄] NMIXX – Love Me Like This(엔믹스 - 러브 미 라이크 디스) | Show! Music Core",
+                "description": "[STAGE MIX  ] NMIXX – Love Me Like This(엔믹스 - 러브 미 라이크 디스) | Show! Music Core #NMIXX #교차편집 #MBCKPOP ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/piwcj7GlWP4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/piwcj7GlWP4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/piwcj7GlWP4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-27T19:00:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aBaZmInynkY12oh5QVOh7WOsggo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EDnwWcFpObo"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-20T09:00:07Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "NMIXX &quot;Love Me Like This&quot; M/V",
+                "description": "NMIXX \"Love Me Like This\" M/V NMIXX 'expérgo' Stream Now ▷ https://orcd.co/expergo NMIXX 'expérgo' Buy Now ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EDnwWcFpObo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EDnwWcFpObo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EDnwWcFpObo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-20T09:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zyTValwAqbvoI66QxpvwPrYeziU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9lIhAbQoTwc"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-29T09:00:06Z",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+                "title": "[NMIXX] &#39;My Gosh&#39; &amp; &#39;HOME&#39; Recording Behind #MIXXTREAM",
+                "description": "[NMIXX] 'My Gosh' & 'HOME' Recording Behind #MIXXTREAM NMIXX Official YouTube ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9lIhAbQoTwc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9lIhAbQoTwc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9lIhAbQoTwc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NMIXX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-29T09:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yYatH7opBvKZrE6z_jWITjHoTsk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ntBglmH_Hok"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-25T07:26:11Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NMIXX (엔믹스) - Love Me Like This | Show! MusicCore | MBC230325방송",
+                "description": "NMIXX (엔믹스) - Love Me Like This | Show! MusicCore | MBC230325방송 #NMIXX #LoveMeLikeThis #MBCKPOP More ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ntBglmH_Hok/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ntBglmH_Hok/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ntBglmH_Hok/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-25T07:26:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JT3lPOjyfGhRF8uWy17TJ9oHExE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rRIP2ViOKL4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T09:00:29Z",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+                "title": "&quot;ㄴ섞어가 부릅니다, 이.사.저.사~&quot; 우당탕탕 NMIXX 뉴스 데스크 #BREAKTIME EP.1 | PICK NMIXX",
+                "description": "\"ㄴ섞어가 부릅니다, 이.사.저.사~\" 우당탕탕 NMIXX 뉴스 데스크 #BREAKTIME EP.1 | PICK NMIXX NMIXX Official YouTube ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rRIP2ViOKL4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rRIP2ViOKL4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rRIP2ViOKL4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NMIXX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T09:00:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6C5sVImsLC3mS6DG2mDKIeUwV8k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xAtC74dI1PY"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-25T07:16:11Z",
+                "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+                "title": "NMIXX (엔믹스) - Young, Dumb, Stupid | Show! MusicCore | MBC230325방송",
+                "description": "NMIXX (엔믹스) - Young, Dumb, Stupid | Show! MusicCore | MBC230325방송 #NMIXX #Young_Dumb_Stupid #MBCKPOP ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xAtC74dI1PY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xAtC74dI1PY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xAtC74dI1PY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MBCkpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-25T07:16:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xhoa7hbA-AH1JAkV10zaSa-eULI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "p1bjnyDqI9k"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-19T09:00:23Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "NMIXX &quot;DICE&quot; M/V",
+                "description": "NMIXX \"DICE\" M/V NMIXX Official YouTube ▷ https://www.youtube.com/c/NMIXXOfficial NMIXX Official Twitter ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/p1bjnyDqI9k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/p1bjnyDqI9k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/p1bjnyDqI9k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-19T09:00:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yS65tqHNW5L_KcDHPO-c1VwmCE8",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-12T03:58:53Z",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+                "title": "NMIXX",
+                "description": "NMIXX Official YouTube.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/hWbUt5PkaYNP0D4WpCLQ1ritKnS2pvufYS3WMWbXTijuWQRnnmwUXXCFq5yhsjDwWorciqbm=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/hWbUt5PkaYNP0D4WpCLQ1ritKnS2pvufYS3WMWbXTijuWQRnnmwUXXCFq5yhsjDwWorciqbm=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/hWbUt5PkaYNP0D4WpCLQ1ritKnS2pvufYS3WMWbXTijuWQRnnmwUXXCFq5yhsjDwWorciqbm=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "NMIXX",
+                "liveBroadcastContent": "upcoming",
+                "publishTime": "2021-07-12T03:58:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OGTIBIrZ1Sgz9y0y0UZEq_e8tqk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fzrjqnOZFeE"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-24T08:00:07Z",
+                "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+                "title": "[4K] NMIXX (엔믹스) - &quot;Love Me Like This&quot; Band LIVE Concert │짱믹스하면 밴드라이브지💗[it’s KPOP LIVE 잇츠라이브]",
+                "description": "잇츠라이브를 찾아온 엔믹스(NMIXX)!!   바운시 랩과 R&B 스타일 보컬 라인의 믹스가 돋보이는 곡 엔믹스의 'Love Me Like This' ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fzrjqnOZFeE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fzrjqnOZFeE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fzrjqnOZFeE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "it's Live",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-24T08:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "AQ71RoBd2z2eXBYjZUMjhUjLDzc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Qx8WSG5GKXc"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-16T09:00:15Z",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+                "title": "[NMIXX] &quot;Young, Dumb, Stupid&quot; Performance Video",
+                "description": "[NMIXX] \"Young, Dumb, Stupid\" Performance Video NMIXX 'expérgo' Pre-order ▷ https://biglink.to/expergo NMIXX 'expérgo' ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Qx8WSG5GKXc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Qx8WSG5GKXc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Qx8WSG5GKXc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NMIXX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-16T09:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ZxM6ENlM-Mf-RqCdWBibwV4qKX4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "QkCMOfuqCxU"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-29T05:40:03Z",
+                "channelId": "UCFoosrYcl0_2ycHkCrfn1Sw",
+                "title": "엔믹스 팬미팅 막말 사건, 1분만에 알려드림",
+                "description": "업로드되는 영상을 가장 빠르게 만날 수 있는 방법! 지금 바로 포비 유튜브 채널 [구독] 버튼을 눌러주세요. ▷ 구독하기 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QkCMOfuqCxU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QkCMOfuqCxU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QkCMOfuqCxU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "포비위키",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-29T05:40:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_W13B1OfHoBYeOIJUVC9n36bAS8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7s87WC6mZNc"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-14T09:01:32Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "Love Me Like This - NMIXX(엔믹스) [뮤직뱅크/Music Bank] | KBS 230414 방송",
+                "description": "Love Me Like This - NMIXX(엔믹스) KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 10분에 방송됩니다. #LoveMeLikeThis #가요 #가수 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7s87WC6mZNc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7s87WC6mZNc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7s87WC6mZNc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Kpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-14T09:01:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QVYwiMGBUyrQOoIwEvOcTT5fpWk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3h_gS3ZM4eg"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-21T07:00:03Z",
+                "channelId": "UC4scK1OtvoEa95nmjdsPjYg",
+                "title": "[4K] NMIXX (엔믹스) Love Me Like This (러브 미 라이크 디스) 교차편집 (Stage Mix)",
+                "description": "NMIXX #엔믹스 #love_me_like_this.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3h_gS3ZM4eg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3h_gS3ZM4eg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3h_gS3ZM4eg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SoulYeon솔연",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-21T07:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GKAE8tblYZBFf9KT36KfllSnGns",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8UOEW3czU6U"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-21T14:00:05Z",
+                "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+                "title": "[BE ORIGINAL] NMIXX(엔믹스) &#39;DICE&#39; (4K)",
+                "description": "[BE ORIGINAL] NMIXX 'DICE' [비 오리지널] 엔믹스 'DICE' 엔믹스만이 가능한 퍼포! 나이스껄   (2:00) 케이팝 판도를 뒤집을 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8UOEW3czU6U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8UOEW3czU6U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8UOEW3czU6U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-21T14:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "WFrxYseIJeILqN3kkwT5kFfRqrE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8XCDMSgwoKU"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T12:39:44Z",
+                "channelId": "UC-v65gakyXmPTDgRtYSzRhA",
+                "title": "[엔믹스] 엔믹스 근본 조합 지우&amp;규진 막내즈 모음",
+                "description": "nmixx #엔믹스 #모음집 엔믹스 전설의 근본 조합! 케미 투표에서 70% 득표율로 쮸뀨 모음집❤️‍   지우&규진이 막내즈의 케미를 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8XCDMSgwoKU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8XCDMSgwoKU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8XCDMSgwoKU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "지우해",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T12:39:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7PD76JF4U4YcuEBG07mF3liYZ_w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "uxx5GhVNDGg"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-20T09:52:43Z",
+                "channelId": "UCmth4hMyizG-_W9jidBqs_A",
+                "title": "NMIXX Love Me Like This Lyrics (엔믹스  Love Me Like This 가사) (Color Coded Lyrics)",
+                "description": "All Rights Administered by JYP Entertainment • Artist: NMIXX • Song ♫: Love Me Like This • Album: expérgo • Released: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uxx5GhVNDGg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uxx5GhVNDGg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uxx5GhVNDGg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Jaeguchi",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-20T09:52:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "afR_XHS2ujpFytlSYtY6-vbd36c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RXRVcT2xuBM"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-24T14:06:13Z",
+                "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+                "title": "[오지구영] 4세대 여돌 &#39;맑은 눈의 광인&#39; 세계관 최강자! 엔믹스가 찾아왔구영 | DOPE CLUB - NMIXX (ENG SUB)",
+                "description": "[오지구영] 4세대 여돌 '맑은 눈의 광인' 세계관 최강자! 엔믹스가 찾아왔구영 [DOPE CLUB] Who is the best 'Clear eyed' 4th Gen Girl ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RXRVcT2xuBM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RXRVcT2xuBM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RXRVcT2xuBM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "M2",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-24T14:06:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FSO6hTzjajC7fOidxJbPx9c7y8Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L6ucA65-8_w"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-29T12:32:50Z",
+                "channelId": "UCgkQKV-Jum6D1hhx65jA24g",
+                "title": "NMIXX &quot;Young, Dumb, Stupid&quot; (교차편집 Stage Mix)",
+                "description": "NMIXX 엔믹스 릴리, 해원, 설윤, 배이, 지우, 규진 JYP엔터테인먼트 첫 번째 미니 앨범 1st EP 〈expérgo〉 2023. 03. 20. #NMIXX #엔 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L6ucA65-8_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L6ucA65-8_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L6ucA65-8_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "idol studio",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-29T12:32:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rsnWu8MAUgie97786d1nwDLFVMU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "X28uGaImYNs"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-21T13:00:19Z",
+                "channelId": "UCnUAyD4t2LkvW68YrDh7fDg",
+                "title": "[NMIXX] &quot;Love Me Like This&quot; Stage Practice",
+                "description": "[NMIXX] \"Love Me Like This\" Stage Practice NMIXX 'expérgo' Stream Now ▷ https://orcd.co/expergo NMIXX 'expérgo' Buy Now ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/X28uGaImYNs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/X28uGaImYNs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/X28uGaImYNs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NMIXX",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-21T13:00:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oqvoR5n_kz-9vHHhaoQl6skISpE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_HiASoHKTGU"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-23T09:22:11Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "DICE - NMIXX(엔믹스) [뮤직뱅크/Music Bank] | KBS 220923 방송",
+                "description": "DICE - NMIXX(엔믹스) KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 10분에 방송됩니다. #DICE #가요 #가수 #음악 #케이팝 #NMIXX ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_HiASoHKTGU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_HiASoHKTGU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_HiASoHKTGU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Kpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-23T09:22:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "c6U0dIpDk4ABbsYHeo1CgUjoxaA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XmmwVnjT2eQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-24T10:00:21Z",
+                "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+                "title": "[릴레이댄스] NMIXX(엔믹스) - Love Me Like This (4K)",
+                "description": "[릴레이댄스] 엔믹스 - Love Me Like This [Relay Dance] NMIXX - Love Me Like This 짱믹스 릴댄은 사랑할 수 밖에 없쟈나   중독성 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XmmwVnjT2eQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XmmwVnjT2eQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XmmwVnjT2eQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "M2",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-24T10:00:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7Xgn8JzOO0bgSPvVr5GwRAs-pgA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Iqebam_uulo"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-25T14:00:15Z",
+                "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+                "title": "[BE ORIGINAL] NMIXX(엔믹스) &#39;O.O&#39; (4K)",
+                "description": "[BE ORIGINAL] NMIXX 'O.O' [비 오리지널] 엔믹스 'O.O' 새로운 장르 개척해버린 최고신인 왔다   두 눈 크게 뜨고 봐야 하는 짱믹스 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Iqebam_uulo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Iqebam_uulo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Iqebam_uulo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-25T14:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7dhYqvpgjmggKCZ3p3p_HYZk3TM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "paVSNfD-BXo"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-20T09:13:51Z",
+                "channelId": "UC7JzgfT70zEV6qWD_7FIv3w",
+                "title": "[Full Album] N M I X X (엔믹스) - expergo",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/paVSNfD-BXo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/paVSNfD-BXo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/paVSNfD-BXo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "K Musik",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-20T09:13:51Z"
+            }
+        }
+    ]
+}

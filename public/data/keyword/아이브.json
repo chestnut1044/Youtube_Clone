@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "kaxpJ3kvoz7SGIpRgrhAijpHxtA",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "US",
+  "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 25
+  },
+  "items": [
+      {
+          "kind": "youtube#searchResult",
+          "etag": "0U2V6KYid6D9jo0BoZAw5x0xPio",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "pdVKOs_oikM"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-29T07:35:46Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "IVE (아이브) - I AM | Show! MusicCore | MBC230429방송",
+              "description": "IVE (아이브) - I AM | Show! MusicCore | MBC230429방송 #IVE #IAM #MBCKPOP More clips are available iMBC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/pdVKOs_oikM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/pdVKOs_oikM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/pdVKOs_oikM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-29T07:35:46Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "eP881SohJCkBT61kUl_FTMlBqok",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "7jm-8OEJzJQ"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-28T09:31:30Z",
+              "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+              "title": "I AM - IVE [뮤직뱅크/Music Bank] | KBS 230428 방송",
+              "description": "I AM - IVE KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 10분에 방송됩니다. #IAM #가요 #가수 #음악 #케이팝 #IVE #아이브 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/7jm-8OEJzJQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/7jm-8OEJzJQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/7jm-8OEJzJQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "KBS Kpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-28T09:31:30Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "qe-kZQ3buAJFSZpCXZJRy7kgMbY",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "6ZUIwj3FgUY"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-10T09:00:10Z",
+              "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+              "title": "IVE 아이브 &#39;I AM&#39; MV",
+              "description": "STARSHIP SQUARE (Domestic) : https://bit.ly/3HtQ7GF STARSHIP SQUARE (Global) : https://bit.ly/3JWPxm0 IVE US EXCLUSIVE ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/6ZUIwj3FgUY/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "starshipTV",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-10T09:00:10Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "l4pWBsoc0BuT_OFKlzESMto5Ofk",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "pG6iaOMV46I"
+          },
+          "snippet": {
+              "publishedAt": "2023-03-27T09:00:35Z",
+              "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+              "title": "IVE 아이브 &#39;Kitsch&#39; MV",
+              "description": "STARSHIP SQUARE (Domestic) : https://bit.ly/3HtQ7GF STARSHIP SQUARE (Global) : https://bit.ly/3JWPxm0 IVE US EXCLUSIVE ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/pG6iaOMV46I/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/pG6iaOMV46I/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/pG6iaOMV46I/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "starshipTV",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-03-27T09:00:35Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "9LGB_CLuylHDnT45kCi0Q85JXas",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "aeJOyqdsMlU"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-23T08:39:27Z",
+              "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+              "title": "IVE(아이브) - Kitsch @인기가요 inkigayo 20230423",
+              "description": "IVE - Kitsch #SBSInkigayo_EP1179 아이브 - Kitsch #IVE #Kitsch SBS Inkigayo(인기가요) is a Korean music program broadcast by ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/aeJOyqdsMlU/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/aeJOyqdsMlU/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/aeJOyqdsMlU/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "스브스케이팝 X INKIGAYO",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-23T08:39:27Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "WlqMRRspxxewDPHQz8oRAn_-P_0",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "cU0JrSAyy7o"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-12T14:00:20Z",
+              "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+              "title": "[BE ORIGINAL] IVE(아이브) &#39;I AM&#39; (4K)",
+              "description": "[BE ORIGINAL] IVE 'I AM' [비 오리지널] 아이브 '아이 엠' 아이브가 걷는 대로 길이거든   (2:46) 오늘 DIVE에게 열리는 건 천국   #IVE ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/cU0JrSAyy7o/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/cU0JrSAyy7o/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/cU0JrSAyy7o/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-12T14:00:20Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "2Sp9FRUaF2_HLojsdNmPbSLIC4E",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "40d1z7z8OQA"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-10T16:52:22Z",
+              "channelId": "UC7JzgfT70zEV6qWD_7FIv3w",
+              "title": "IVE ALL SONGS PLAYLIST 2023 | 아이브 노래 모음",
+              "description": "",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/40d1z7z8OQA/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/40d1z7z8OQA/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/40d1z7z8OQA/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "K Musik",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-10T16:52:22Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "syKMqfMUzfjuxOw5w0X9ddHR3Mw",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "vMXGX4Dp3iM"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-22T07:25:21Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "IVE (아이브) - I AM | Show! MusicCore | MBC230422방송",
+              "description": "IVE (아이브) - I AM | Show! MusicCore | MBC230422방송 #IVE #IAM #MBCKPOP More clips are available iMBC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/vMXGX4Dp3iM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/vMXGX4Dp3iM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/vMXGX4Dp3iM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-22T07:25:21Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "-TIPrsBai-rVmXMdVM4V5e6CrKs",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "XM78ZzK_dCM"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-15T07:45:10Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "IVE (아이브) - I AM | Show! MusicCore | MBC230415방송",
+              "description": "IVE (아이브) - I AM | Show! MusicCore | MBC230415방송 #IVE #IAM #MBCKPOP More clips are available iMBC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/XM78ZzK_dCM/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/XM78ZzK_dCM/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/XM78ZzK_dCM/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-15T07:45:10Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "DlgucHsBVG37NFhlO4BTtUqpyP4",
+          "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC-Fnix71vRP64WXeo0ikd0Q"
+          },
+          "snippet": {
+              "publishedAt": "2021-08-25T10:33:08Z",
+              "channelId": "UC-Fnix71vRP64WXeo0ikd0Q",
+              "title": "IVE",
+              "description": "IVE (아이브) 공식 유튜브 채널 IVE (아이브) Official Youtube Channel IVE Twitter : https://twitter.com/IVEstarship ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://yt3.ggpht.com/LovolgAPh3zX_oHDavpzWTfuA7GGl3oJemqfy9x0he1314eWuDrQXk5huM38uj4pOPATza-quw=s88-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "medium": {
+                      "url": "https://yt3.ggpht.com/LovolgAPh3zX_oHDavpzWTfuA7GGl3oJemqfy9x0he1314eWuDrQXk5huM38uj4pOPATza-quw=s240-c-k-c0xffffffff-no-rj-mo"
+                  },
+                  "high": {
+                      "url": "https://yt3.ggpht.com/LovolgAPh3zX_oHDavpzWTfuA7GGl3oJemqfy9x0he1314eWuDrQXk5huM38uj4pOPATza-quw=s800-c-k-c0xffffffff-no-rj-mo"
+                  }
+              },
+              "channelTitle": "IVE",
+              "liveBroadcastContent": "none",
+              "publishTime": "2021-08-25T10:33:08Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "JjKI-AGZHRZxoxGCa1mzUx0_o9I",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "ak490-PtOuU"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-20T08:00:11Z",
+              "channelId": "UCB9e3pof1o83aa0kkaoeJGA",
+              "title": "[4K] 아이브 (IVE) -“I AM” Band LIVE Concert │넌 그냥 아이브 믿으면 돼, 보이는 그대로야💗 [it’s KPOP LIVE 잇츠라이브]",
+              "description": "잇츠라이브를 찾아온 아이브!!   '내가 가는 길에 확신을 가지라'는 주체적인 삶의 태도를 노래한 곡, IVE의 'I AM' 무대를 지금 바로 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/ak490-PtOuU/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/ak490-PtOuU/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/ak490-PtOuU/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "it's Live",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-20T08:00:11Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "V9UF0Lu5mIl-rd4ozxsIaUoLrz0",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "3s6l59R6jww"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-21T09:16:11Z",
+              "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+              "title": "I AM - IVE [뮤직뱅크/Music Bank] | KBS 230421 방송",
+              "description": "I AM - IVE KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 10분에 방송됩니다. #IAM #가요 #가수 #음악 #케이팝 #IVE #아이브 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/3s6l59R6jww/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/3s6l59R6jww/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/3s6l59R6jww/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "KBS Kpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-21T09:16:11Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "PsdDcDZfqXawQ0TpcAF8DG3Z7XQ",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "F0B7HDiY-10"
+          },
+          "snippet": {
+              "publishedAt": "2022-08-22T09:00:04Z",
+              "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+              "title": "IVE 아이브 &#39;After LIKE&#39; MV",
+              "description": "IVE Twitter : https://twitter.com/IVEstarship : https://twitter.com/IVE_twt : https://twitter.com/IVEstarship_JP IVE Instagram ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/F0B7HDiY-10/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/F0B7HDiY-10/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/F0B7HDiY-10/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "starshipTV",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-08-22T09:00:04Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "IoXfhEPTaeNQ1ZW3U3qHKpP2LqM",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "KszbbtTDqgk"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-23T08:38:14Z",
+              "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+              "title": "IVE(아이브) - I AM @인기가요 inkigayo 20230423",
+              "description": "IVE - I AM #SBSInkigayo_EP1179 아이브 - I AM #IVE #IAM SBS Inkigayo(인기가요) is a Korean music program broadcast by SBS.",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/KszbbtTDqgk/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/KszbbtTDqgk/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/KszbbtTDqgk/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "스브스케이팝 X INKIGAYO",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-23T08:38:14Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "DUyVbM3rnjgS90Akshc3Z_iC8Ew",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "AExitXSoZ2A"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-25T09:50:00Z",
+              "channelId": "UCdgfjsA0QzdqdHtxF9-9R3w",
+              "title": "(+실제 라이브) 아이브 앵콜 라이브 공개되자마자 유일하게 실력논란 터진 멤버ㄷㄷ 심각하다고 난리난 이유",
+              "description": "안녕하세요 이슈피드입니다 항상 재밌고 신선한 뉴스로 찾아뵙겠습니다. 구독하기 ☞ https://goo.gl/wWcGCX 영상이 재미있으셨다면 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/AExitXSoZ2A/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/AExitXSoZ2A/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/AExitXSoZ2A/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "이슈피드",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-25T09:50:00Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Ese415rvN_ezQTO2jt-CGZ3Wubc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "el8QQFA3xKI"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-14T09:35:50Z",
+              "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+              "title": "I AM - IVE [뮤직뱅크/Music Bank] | KBS 230414 방송",
+              "description": "I AM - IVE KBS2 TV 뮤직뱅크｜매주 금요일 오후 5시 10분에 방송됩니다. #IAM #가요 #가수 #음악 #케이팝 #IVE #아이브 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/el8QQFA3xKI/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/el8QQFA3xKI/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/el8QQFA3xKI/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "KBS Kpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-14T09:35:50Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "YEdeNnCbrhmSukAwYys_dIfumIU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "Y8JFxS1HlDo"
+          },
+          "snippet": {
+              "publishedAt": "2022-04-05T09:00:09Z",
+              "channelId": "UCYDmx2Sfpnaxg488yBpZIGg",
+              "title": "IVE 아이브 &#39;LOVE DIVE&#39; MV",
+              "description": "IVE Twitter : https://twitter.com/IVEstarship : https://twitter.com/IVE_twt : https://twitter.com/IVEstarship_JP IVE Instagram ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/Y8JFxS1HlDo/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/Y8JFxS1HlDo/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/Y8JFxS1HlDo/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "starshipTV",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-04-05T09:00:09Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Zv6lR18TwFF7TntpG9o_bqS8OE8",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "vH44ifB5HZQ"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-28T23:00:17Z",
+              "channelId": "UCbbC0FaznmgJDuehIuQvYMA",
+              "title": "한판에 만원?? 넘 비싼거 아니야? 연예인 포토카드가 나오는 포카자판기 (Feat.아이브,뉴진스,르세라핌,지민,지수) 뚜아뚜지TV",
+              "description": "포토카드 #자판기 #포카 뚜아뚜지 인스타그램 : https://www.instagram.com/sua_suji 뚜아뚜지TV는 가족이 함께하는 패밀리채널 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/vH44ifB5HZQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/vH44ifB5HZQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/vH44ifB5HZQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "뚜아뚜지TV",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-28T23:00:17Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "lESYEUmrGkNM_wZNZLrgn1uhE8E",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "r6p5Avk3GG8"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-15T07:40:34Z",
+              "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+              "title": "IVE (아이브) - Kitsch | Show! MusicCore | MBC230415방송",
+              "description": "IVE (아이브) - Kitsch | Show! MusicCore | MBC230415방송 #IVE #Kitsch #MBCKPOP More clips are available iMBC ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/r6p5Avk3GG8/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/r6p5Avk3GG8/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/r6p5Avk3GG8/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "MBCkpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-15T07:40:34Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "ufeH-0Uax--MmZlrN_ZFtAPXwdg",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "eUTxFZFRnZE"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-22T12:00:11Z",
+              "channelId": "UCru-NhkqWnxg7-b5Q579YfA",
+              "title": "[ENG/JPN] 충격! 아이브 멤버들 서서 자는 것으로 밝혀져…😮  | 아이돌 인간극장",
+              "description": "IVE #I_AM #아이돌인간극장 이 스케줄 하루에 가능?! 어딘가 이상한 아이브의 얼렁뚱땅 하루 대본 없는 리얼(?) 다큐 [아이돌 인간 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/eUTxFZFRnZE/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/eUTxFZFRnZE/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/eUTxFZFRnZE/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "아이돌 인간극장",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-22T12:00:11Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "Qj9z6ygPlhV2uyWAHnnsYED-ezk",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "4KRYA4wPLO8"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-18T10:18:20Z",
+              "channelId": "UCoRXPcv8XK5fAplLbk9PTww",
+              "title": "IVE, Kitsch [THE SHOW 230418]",
+              "description": "IVE #Kitsch 채널에 가입하여 혜택을 누려보세요. https://www.youtube.com/channel/UCoRXPcv8XK5fAplLbk9PTww/join The ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/4KRYA4wPLO8/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/4KRYA4wPLO8/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/4KRYA4wPLO8/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "THE K-POP",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-18T10:18:20Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "G6ANAtfUxqyh31Uy8KTud3P156A",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "mmLNmuqtG6Y"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-28T10:46:58Z",
+              "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+              "title": "(ENG)[MusicBank Interview Cam] 아이브 (IVE  Interview)l@MusicBank KBS 230428",
+              "description": "IVE #interview More from #KBSKPOP Twitter: https://twitter.com/StudioK_twt Instagram: ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/mmLNmuqtG6Y/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/mmLNmuqtG6Y/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/mmLNmuqtG6Y/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "KBS Kpop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-28T10:46:58Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "mZ0eXUK4fCZA9EYaMiVrVVkFnxg",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "5MGr54kHBQk"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-27T10:44:31Z",
+              "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+              "title": "&#39;1위&#39; IVE - I AM #엠카운트다운 EP.794 | Mnet 230427 방송",
+              "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f M COUNTDOWN｜Ep.794 아이브 - 아이 엠 (IVE - I AM) World No.1 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/5MGr54kHBQk/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/5MGr54kHBQk/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/5MGr54kHBQk/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mnet K-POP",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-27T10:44:31Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "37V14lKRB_-7ToQumZrQXya-HeU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "tVd361ZM3DI"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-20T09:00:28Z",
+              "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+              "title": "[단독샷캠4K] 아이브 &#39;Kitsch&#39; 단독샷 별도녹화│IVE ONE TAKE STAGE @SBS Inkigayo 230416",
+              "description": "[단독샷캠4K] 아이브 'Kitsch' 단독샷 별도녹화│IVE ONE TAKE STAGE @SBS Inkigayo 230416 (Ft. 스탠다드 별도녹화) #인기가요 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/tVd361ZM3DI/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/tVd361ZM3DI/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/tVd361ZM3DI/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "스브스케이팝 X INKIGAYO",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-20T09:00:28Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "zL0K0w1sAHYrEXLQd_Pbyarag-Q",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "l4hf0JACcgU"
+          },
+          "snippet": {
+              "publishedAt": "2023-04-20T10:48:03Z",
+              "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+              "title": "&#39;1위&#39; IVE - I AM #엠카운트다운 EP.793 | Mnet 230420 방송",
+              "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f M COUNTDOWN｜Ep.793 아이브 - 아이 엠 (IVE - I AM) World No.1 ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/l4hf0JACcgU/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/l4hf0JACcgU/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/l4hf0JACcgU/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mnet K-POP",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-04-20T10:48:03Z"
+          }
+      }
+  ]
+}

@@ -5,6 +5,7 @@ import Result from "./pages/Result";
 import Container from "./pages/Container";
 import NotFound from "./pages/NotFound";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
       },
       {
         // 검색 결과 알려줌
-        path: "result/서치결과",
+        path: `result/*`,
         element: <Result />,
       },
       {
