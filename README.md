@@ -221,6 +221,48 @@
 > text에서 overflow: hidden속성을 추가하여 넘치는 텍스트를 숨긴다.그 후 white-space: nowrap;을 속성을 사용해 넘치는 텍스트의 줄바꿈이 되지 않도록 설정한 후 넘치는 부분을 text-overflow: ellipsis; 로 설정하여 (...)으로 고쳐보았다.
 
 
+<br/>
+
+> **🤔 form 태그 내부의 button에서 Submit을 막는 방법**<br/>
+>![ellipsis](public\images\searchbar.png) <br/>
+> 내 searchbar컴포넌트에서 X버튼을 클릭했을 때는 텍스트가 지워지고 검색버튼을 누르거나 엔터키를 눌러 Submit 하게 해주고 싶은데 X버튼을 눌러도 Submit이 되었다.
+> **SearchBar 컴포넌트**
+>```jsx
+>export default function SearchBar({ text, setText }) {
+>  return (
+>    <searchbar className={styles.searchbar}>
+>      <form onSubmit={handleSubmit} className={styles.form}>
+>        <input
+>          type="text"
+>          placeholder="검색"
+>          value={text}
+>          onChange={handleChange}
+>          className={styles.input}
+>        ></input>
+>        <Button
+>          type={"button"}
+>          icon={<IoMdClose />}
+>          tooltip={""}
+>          customstyle={styles.close}
+>          onClick={handleReset}
+>        />
+>        <Button
+>          type={"submit"}
+>          icon={<IoIosSearch />}
+>          tooltip={"검색"}
+>          customstyle={styles.search}
+>        />
+>      </form>
+>    </searchbar>
+>  );
+>}
+>```
+> form 태그에서 Submit을 걸어주면 form 태그 내부의 button에서 submit이 다 동작해서 X버튼에서도 submit이 됐던 것이었다.<br/>
+> 해결법은 button 태그의 type에 "button"을 넣어주면 된다.
+button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에서 submit되는것이었다.
+>
+
+
 
 <br/>
 <br/>

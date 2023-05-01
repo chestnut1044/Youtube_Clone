@@ -1,0 +1,20 @@
+.result{
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  padding: 1rem 7rem 0 7rem;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+.filter{
+  width: 100%;
+  justify-items:flex-start;
+}
+
+.hr{
+  background-color: var(--color-semi-dk-gray);
+  height: 1px;
+  border: 0;
+}

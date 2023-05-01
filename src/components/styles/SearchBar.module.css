@@ -25,8 +25,7 @@
   border: 1px solid var(--color-point-blue);
 
 }
-
-.close {
+lose {
   position: absolute;
   transform: translateX(560px);
   background: none;

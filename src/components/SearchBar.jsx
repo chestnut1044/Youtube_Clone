@@ -1,21 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import styles from "./styles/SearchBar.module.css";
 import { IoIosSearch, IoMdClose } from "react-icons/io";
 
-export default function SearchBar() {
-  const [text, setText] = useState("");
+export default function SearchBar({ text, setText }) {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
-    navigate(`result/${text}`)
+    if (text.length === 0) {
+      return;
+    }
+    navigate(`result/${text}`);
     e.preventDefault();
+  };
+  const handleReset = () => {
+    setText("");
   };
   const handleChange = (e) => {
     setText(e.target.value);
-  };
-  const handleDelete = () => {
-    setText("");
   };
   return (
     <searchbar className={styles.searchbar}>
@@ -28,12 +30,14 @@ export default function SearchBar() {
           className={styles.input}
         ></input>
         <Button
+          type={"button"}
           icon={<IoMdClose />}
           tooltip={""}
           customstyle={styles.close}
-          onClick={handleDelete}
+          onClick={handleReset}
         />
         <Button
+          type={"submit"}
           icon={<IoIosSearch />}
           tooltip={"검색"}
           customstyle={styles.search}
