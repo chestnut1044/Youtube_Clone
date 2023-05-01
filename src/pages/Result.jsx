@@ -1,13 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styles from "./styles/Result.module.css";
 import Button from "../components/Button";
 import { RiEqualizerLine } from "react-icons/ri";
 import Video from "../components/Video";
+import { useOutletContext } from 'react-router-dom';
 
-export default function Result({ text }) {
-  const test = (e) => {
-    console.log(text, "E");
-  };
+export default function Result() {
+  const [searchQuery] = useOutletContext();
+  const resultData = []
+  console.log(searchQuery)
   return (
     <result className={styles.result}>
       <div className={styles.filter}>
@@ -15,7 +16,6 @@ export default function Result({ text }) {
           icon={<RiEqualizerLine />}
           tooltip=""
           text={"필"}
-          onClick={test}
         />
 
         <hr className={styles.hr} />

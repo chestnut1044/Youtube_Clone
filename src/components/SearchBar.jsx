@@ -1,20 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import styles from "./styles/SearchBar.module.css";
 import { IoIosSearch, IoMdClose } from "react-icons/io";
 
-export default function SearchBar({ text, setText }) {
+export default function SearchBar({ setSearchQuery }) {
+  const [text, setText] = useState("");
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     if (text.length === 0) {
+      e.preventDefault();
       return;
     }
     navigate(`result/${text}`);
+    setSearchQuery(text);
     e.preventDefault();
   };
-  const handleReset = () => {
+  const handleReset = (e) => {
     setText("");
+    e.preventDefault();
   };
   const handleChange = (e) => {
     setText(e.target.value);

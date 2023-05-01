@@ -8,7 +8,7 @@ import { MdKeyboardVoice } from "react-icons/md";
 import { BsYoutube, BsBell } from "react-icons/bs";
 import { BiVideoPlus } from "react-icons/bi";
 
-export default function Header({ sideToggle, setSideToggle, text, setText }) {
+export default function Header({ sideToggle, setSideToggle, setSearchQuery }) {
   return (
     <header className={styles.header}>
       <div className={styles.header_lh}>
@@ -26,7 +26,7 @@ export default function Header({ sideToggle, setSideToggle, text, setText }) {
         </Link>
       </div>
       <div className={styles.searchbar}>
-        <SearchBar text={text} setText={setText} />
+        <SearchBar setSearchQuery={setSearchQuery} />
         <Button icon={<MdKeyboardVoice />} tooltip={"음성으로 검색"} />
       </div>
       <ul className={styles.header_rh}>

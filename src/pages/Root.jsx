@@ -6,13 +6,13 @@ import { Outlet } from "react-router-dom";
 
 export default function Root() {
   const [sideToggle, setSideToggle] = useState(true);
-  const [text, setText] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
   return (
     <div className={styles.root}>
-      <Headers text={text} setText={setText} />
+      <Headers setSearchQuery={setSearchQuery} />
       <div className={styles.main}>
         <Sidebar />
-        <Outlet context={{text}}/>
+        <Outlet context={[searchQuery]} />
       </div>
     </div>
   );
