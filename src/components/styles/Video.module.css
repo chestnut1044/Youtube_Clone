@@ -1,7 +1,33 @@
-.video{
-  background-color: aqua;
-  border: solid;
-  width: 300px;
-  height: 200px;
+.container {
+  display: flex;
+  width: 100%;
   margin: 10px;
+
+}
+
+.video {
+  flex: 0 0 360px;
+  margin-right: 20px;
+  background-color: aqua;
+  width: 360px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.metadata {
+  flex: 1 0 0;
+  
+}
+.title{
+  font-size: 18px;
+  margin: 4px 0 4px 0;
+}
+.views{
+  font-size: 12px;
+}
+.info{
+  padding: 12px 0 12px 0;
+}
+.description{
+  font-size: 12px;
 }
