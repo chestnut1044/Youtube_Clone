@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import Button from "./Button";
 import styles from "./styles/Header.module.css";

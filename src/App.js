@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./pages/Root";
 import Result from "./pages/Result";
 import Container from "./pages/Container";
+import Shorts from "./pages/Shorts";
 import NotFound from "./pages/NotFound";
 
 
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
         // 검색 결과 알려줌
         path: `result/*`,
         element: <Result />,
+      },
+      {
+        // 쇼츠
+        path: "shorts/*",
+        element: <Shorts />,
       },
       {
         // 에러 페이지

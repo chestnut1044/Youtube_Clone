@@ -1,0 +1,19 @@
+.shorts{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.container{
+  background-color: pink;
+  /* width: 560px; */
+  width: 310px;
+}
+
+.feedback{
+  margin-left: 10px;
+}
+.info{
+  background-color: black;
+}

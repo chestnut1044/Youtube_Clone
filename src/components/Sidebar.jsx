@@ -16,17 +16,30 @@ import { SiYoutubemusic } from "react-icons/si";
 import { IoMdTime } from "react-icons/io";
 import { RiThumbUpLine, RiThumbUpFill } from "react-icons/ri";
 import { HiOutlineSaveAs, HiSaveAs } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
+const handleHomeClick = () => {
+  console.log("핸");
+};
 export default function Sidebar() {
   return (
     <div className={styles.sidebar}>
       <div className={styles.staticList}>
-        <SidebarList icon={<RiHome5Line />} type={"홈"} message={"홈"} />
-        <SidebarList
-          icon={<AiOutlineYoutube />}
-          type={"Shorts"}
-          message={"Shorts"}
-        />
+        <Link to={`/`} className={styles.link}>
+          <SidebarList
+            icon={<RiHome5Line />}
+            type={"홈"}
+            message={"홈"}
+            onClick={handleHomeClick}
+          />
+        </Link>
+        <Link to={`/shorts`} className={styles.link}>
+          <SidebarList
+            icon={<AiOutlineYoutube />}
+            type={"Shorts"}
+            message={"Shorts"}
+          />
+        </Link>
         <SidebarList
           icon={<MdOutlineSubscriptions />}
           type={"구독"}
