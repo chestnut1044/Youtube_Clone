@@ -8,31 +8,30 @@ import { useOutletContext } from "react-router-dom";
 export default function Result() {
   const [searchQuery] = useOutletContext();
   const [data, setData] = useState([]);
-  const [resultData, setResultData] = useState([]);
 
   useEffect(() => {
     fetch(`/data/keyword/${searchQuery}.json`)
       .then((res) => res.json())
       .then((res) => setData(res));
   }, [searchQuery]);
-  useEffect(() => {
-    setResultData(data);
-  }, [data]);
-  console.log(resultData);
+  console.log(data.items);
 
   return (
     <result className={styles.result}>
       <div className={styles.filter}>
-        <Button icon={<RiEqualizerLine />} tooltip="" text={"필"} />
+        <Button
+          icon={<RiEqualizerLine />}
+          tooltip=""
+          text={"필터"}
+          customstyle={styles.filterBtn}
+        />
         <hr className={styles.hr} />
       </div>
       <div className={styles.container}>
-        <Video type={"search"} />
-        <Video type={"search"} />
-        <Video type={"search"} />
+      {Array.isArray(data.items) && data.items.map((videoData) => (
+          <Video key={videoData.id} type={"search"} data={videoData.snippet} />
+        ))}
       </div>
-      {/* 내일 할일 이 안에다가 동영상 넣기 */}
-      {/* text={data.items[0].snippet.title} */}
     </result>
   );
 }

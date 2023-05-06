@@ -7,6 +7,10 @@
   border: none;
   background-color: var(--color-white);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 
@@ -28,12 +32,17 @@
   font-size: 24px;
 }
 
+.text{
+  padding: 0 15px 0 10px;
+  font-size: 14px;
+}
+
 .tooltip {
   position: absolute;
   width: max-content;
   padding: 8px;
   border-radius: 5px;
-  transform: translateX(-50%) translateY(80%);
+  transform: translateY(130%);
   visibility: hidden;
   background-color: var(--color-dk-gray);
   color: var(--color-white);

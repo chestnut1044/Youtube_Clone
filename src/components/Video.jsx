@@ -1,17 +1,21 @@
 import React from "react";
 import styles from "./styles/Video.module.css";
 
-export default function Video({ type, text }) {
+const decodeHtmlEntity = (str) => {
+  return new DOMParser().parseFromString(str, "text/html").body.textContent;
+};
+
+export default function Video({ key, type, data }) {
+
   if (type === "search") {
     return (
       <div className={styles.container}>
         <div className={styles.video}>
-          {text}
-          <img></img>
+          <img src={`data.thumbnails/default/url`}></img>
         </div>
         <div className={styles.metadata}>
           <p className={styles.title}>
-            애교용식 1부에 참여하는 비제이들 반응ㅋㅋ ㅇㄴㅇ~!!
+          {decodeHtmlEntity(data.title)}
           </p>
           <p className={styles.views}>조회수</p>
           <div className={styles.info}>계정</div>

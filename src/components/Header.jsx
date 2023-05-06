@@ -8,15 +8,14 @@ import { MdKeyboardVoice } from "react-icons/md";
 import { BsYoutube, BsBell } from "react-icons/bs";
 import { BiVideoPlus } from "react-icons/bi";
 
-export default function Header({ sideToggle, setSideToggle, setSearchQuery }) {
+export default function Header({ handleToggle, setSearchQuery }) {
   return (
     <header className={styles.header}>
       <div className={styles.header_lh}>
         <Button
           icon={<RxHamburgerMenu />}
           tooltip={""}
-          customstate={{ sideToggle }}
-          customSetstate={{ setSideToggle }}
+          onClick={handleToggle}
         />
         <Link to={`/`} className={styles.link}>
           <div className={styles.logo}>

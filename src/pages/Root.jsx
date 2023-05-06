@@ -5,11 +5,12 @@ import styles from "./styles/Root.module.css";
 import { Outlet } from "react-router-dom";
 
 export default function Root() {
+  const handleToggle = () => {};
   const [sideToggle, setSideToggle] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <div className={styles.root}>
-      <Headers setSearchQuery={setSearchQuery} />
+      <Headers setSearchQuery={setSearchQuery} handleToggle={handleToggle} />
       <div className={styles.main}>
         <Sidebar />
         <Outlet context={[searchQuery]} />

@@ -13,6 +13,13 @@
   justify-items:flex-start;
 }
 
+
+.filterBtn{
+  width: max-content;
+  height: 36px;
+  border-radius: 10% 20px 20px 10%;
+}
+
 .hr{
   background-color: var(--color-semi-dk-gray);
   height: 1px;
