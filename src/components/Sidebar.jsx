@@ -91,10 +91,10 @@ export default function Sidebar() {
           type={"더보기"}
           message={"더보기"}
         />
+        <hr />
       </div>
 
       <div className={styles.subscribeList}>
-        <hr />
         <h4></h4>
         <SidebarList icon={"아"} type={"계정"} message={"계정"} />
         <SidebarList icon={"아"} type={"계정"} message={"계정"} />
