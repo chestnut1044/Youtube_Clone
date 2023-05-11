@@ -5,13 +5,13 @@
 
 }
 
-.video {
+.img {
   flex: 0 0 360px;
-  margin-right: 20px;
-  background-color: aqua;
   width: 360px;
   height: 200px;
+  margin-right: 20px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .metadata {

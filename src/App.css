@@ -14,7 +14,7 @@
   --color-point-blue: #1C62B9;
 
   /* --font-logo: */
-  --font-main: 'Roboto', sans-serif;
+  --font-main: 'Roboto', 'Arial' sans-serif;
 }
 
 *{

@@ -262,6 +262,64 @@
 button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에서 submit되는것이었다.
 >
 
+<br/>
+
+> **🤔 Searchbar에서 입력받은 값에 맞는 결과를 받아와 렌더링 하기**<br/>
+>![ellipsis](public\images\.png) <br/>
+> 내 프로젝트 구조는 위와 같다. SearchBar 컴포넌트에 submit되면 상태를 변경하고 변경된 데이터를 Outlet에 전달해 결과화면을 띄우는 방법을 알아보았다.
+> ```
+> Root
+> ㄴ Header
+>    ㄴSearchBar
+> ㄴ Sidebar
+> ㄴ Outlet(Result)
+>```
+> ㄴㄴㄴ
+>ㄴㄴㄴㄴ
+>```jsx
+>export default function Result() {
+>  const [searchQuery] = useOutletContext();
+>  const [data, setData] = useState([]);
+>
+>  useEffect(() => {
+>    fetch(`/data/keyword/${searchQuery}.json`)
+>      .then((res) => res.json())
+>      .then((res) => setData(res));
+>  }, [searchQuery]);
+>  console.log(data.items);
+>```
+> 먼저 useOutletContext() 를 사용해 outlet으로 props를 전달시켜준뒤 useEffect로 백엔드로부터 데이터를 받아와준다. 디펜던시에 [searchQuery]를 넣어 Root에서 선언된 상태값 searchQuery 가 바뀔 때마다 렌더링 될 수 있게 해주었다. <br/>
+>이때 받아온 data 값들이 디코딩이 안된 상태로 html에 표기되었다.
+>```jsx
+>const decodeHtmlEntity = (str) => {
+>  return new DOMParser().parseFromString(str, "text/html").body.textContent;
+>};
+> export default function Video({ key, type, data }) {
+>  if (type === "search") {
+>    return (
+>      <div className={styles.container}>
+>        <div className={styles.video}>
+>          <img src={`data.thumbnails/default/url`}></img>
+>        </div>
+>        <div className={styles.metadata}>
+>          <p className={styles.title}>
+>          {decodeHtmlEntity(data.title)}
+>          </p>
+>          <p className={styles.views}>조회수</p>
+>          <div className={styles.info}>계정</div>
+>          <p className={styles.description}>설명하는공간</p>
+>        </div>
+>      </div>
+>    );
+>  }
+>```
+> Video 컴포넌트 외부에서 위와 같이 entity값을 디코딩 하는 함수를 만들어 data가 들어가는부분에서 사용해 주었다.
+
+<br/>
+
+> **🤔 ㅁㅁㅁ**<br/>
+>![ellipsis](public\images\.png) <br/>
+> ㅁㅁㅁㅁ
 
 
 <br/>

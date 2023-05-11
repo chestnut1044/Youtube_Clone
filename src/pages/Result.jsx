@@ -14,7 +14,6 @@ export default function Result() {
       .then((res) => res.json())
       .then((res) => setData(res));
   }, [searchQuery]);
-  console.log(data.items);
 
   return (
     <result className={styles.result}>
@@ -28,9 +27,18 @@ export default function Result() {
         <hr className={styles.hr} />
       </div>
       <div className={styles.container}>
-      {Array.isArray(data.items) && data.items.map((videoData) => (
-          <Video key={videoData.id} type={"search"} data={videoData.snippet} />
-        ))}
+        {Array.isArray(data.items) &&
+          data.items.map((videoData) => {
+            if (videoData.id.kind === 'youtube#video') {
+              return (
+                <Video
+                  key={videoData.id}
+                  type={"search"}
+                  data={videoData.snippet}
+                />
+              );
+            }
+          })}
       </div>
     </result>
   );
