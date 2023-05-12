@@ -8369,6 +8369,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"load-script@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "load-script@npm:1.0.0"
+  checksum: 8458e3f07b4a86f8d9d66e47a987811491a5d013af23ba7b371c6d3c9dc899885b072ccf65abf7874c10cb197d4975eacd8a7a125bfb38dbbcb267539f5dc1e9
+  languageName: node
+  linkType: hard
+
 "loader-runner@npm:^4.2.0":
   version: 4.3.0
   resolution: "loader-runner@npm:4.3.0"
@@ -11368,6 +11375,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sister@npm:^3.0.0":
+  version: 3.0.2
+  resolution: "sister@npm:3.0.2"
+  checksum: 8a1eb9d20a0bc7d05b723f59f4e2b022c777c152119f69175d3ad1a50e16161d2f084d3acc69106454bfcffd8392b4d2153fa2d2c0c5be3991cfb7acbf627c4a
+  languageName: node
+  linkType: hard
+
 "sisteransi@npm:^1.0.5":
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
@@ -13152,6 +13166,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"youtube-player@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "youtube-player@npm:5.6.0"
+  dependencies:
+    debug: ^4.3.4
+    load-script: ^1.0.0
+    sister: ^3.0.0
+  checksum: 2b4c800e37468b78279434e868dd0817b28e0dcb9aca47045935673cd37aeb3b88eddd90fa5cd305b014ac13d3e856c101ab8a94039b3c24cb6080dd28f242a8
+  languageName: node
+  linkType: hard
+
 "youtube_clone@workspace:.":
   version: 0.0.0-use.local
   resolution: "youtube_clone@workspace:."
@@ -13166,5 +13191,6 @@ __metadata:
     react-router-dom: ^6.10.0
     react-scripts: 5.0.1
     web-vitals: ^2.1.0
+    youtube-player: ^5.6.0
   languageName: unknown
   linkType: soft

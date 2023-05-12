@@ -5,6 +5,7 @@ import Result from "./pages/Result";
 import Container from "./pages/Container";
 import Shorts from "./pages/Shorts";
 import NotFound from "./pages/NotFound";
+import Watch from "./pages/Watch";
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
         // 검색 결과 알려줌
         path: `result/*`,
         element: <Result />,
+      },
+      {
+        // 검색 결과 알려줌
+        path: `watch/*`,
+        element: <Watch />,
       },
       {
         // 쇼츠

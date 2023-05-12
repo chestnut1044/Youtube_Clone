@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import { RiEqualizerLine } from "react-icons/ri";
 import Video from "../components/Video";
 import { useOutletContext } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Result() {
   const [searchQuery] = useOutletContext();
@@ -29,13 +30,15 @@ export default function Result() {
       <div className={styles.container}>
         {Array.isArray(data.items) &&
           data.items.map((videoData) => {
-            if (videoData.id.kind === 'youtube#video') {
+            if (videoData.id.kind === "youtube#video") {
               return (
-                <Video
-                  key={videoData.id}
-                  type={"search"}
-                  data={videoData.snippet}
-                />
+                <Link to={`/watch?${videoData.id.videoId}`} className={styles.link}>
+                  <Video
+                    key={videoData.id}
+                    type={"search"}
+                    data={videoData.snippet}
+                  />
+                </Link>
               );
             }
           })}
