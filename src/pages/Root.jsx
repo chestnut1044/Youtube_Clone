@@ -8,6 +8,7 @@ export default function Root() {
   const [sideToggle, setSideToggle] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [currentVideo, setCurrentVideo] = useState("");
+  console.log(currentVideo)
   return (
     <div className={styles.root}>
       <Headers

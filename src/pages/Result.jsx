@@ -39,7 +39,7 @@ export default function Result() {
                 <Link
                   to={`/watch?${videoData.id.videoId}`}
                   className={styles.link}
-                  onClick={()=>setCurrentVideo(videoData.id.videoId)}
+                  onClick={()=>setCurrentVideo(videoData)}
                   >
                   <Video
                     key={videoData.id}

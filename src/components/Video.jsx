@@ -12,7 +12,6 @@ export default function Video({ key, type, data }) {
         <img src={data.thumbnails.medium.url} className={styles.img}></img>
         <div className={styles.metadata}>
           <p className={styles.title}>{decodeHtmlEntity(data.title)}</p>
-
           <p className={styles.views}>조회수</p>
           <div className={styles.info}>계정</div>
           <p className={styles.description}>설명하는공간이래</p>
@@ -20,7 +19,19 @@ export default function Video({ key, type, data }) {
       </div>
     );
   } else if (type === "watch") {
-    return <div>메인이래요</div>;
+    console.log(data.id.videoId);
+    return (
+      <iframe
+        id="ytplayer"
+        type="text/html"
+        width="640"
+        height="360"
+        src={`https://www.youtube.com/embed/${data.id.videoId}?autoplay=1&origin=http://example.com`}
+        frameborder="0"
+      ></iframe>
+    );
+
+    // return <div>{JSON.stringfy(data)}</div>;
   }
 }
 

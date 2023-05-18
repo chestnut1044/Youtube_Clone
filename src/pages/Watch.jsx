@@ -12,7 +12,7 @@ export default function Watch() {
   return (
     <watch className={styles.container}>
       <div className={styles.main}>
-        <Video type="watch"></Video>
+        <Video type="watch" data={currentVideo}></Video>
         <div className={styles.comment}>댓글</div>
       </div>
       <div className={styles.side}>사이드바</div>
