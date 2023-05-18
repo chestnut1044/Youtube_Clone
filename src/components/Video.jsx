@@ -8,24 +8,37 @@ const decodeHtmlEntity = (str) => {
 export default function Video({ key, type, data }) {
   if (type === "search") {
     return (
-      <div className={styles.container}>
-        <img src={data.thumbnails.medium.url} className={styles.img}></img>
-        <div className={styles.metadata}>
-          <p className={styles.title}>{decodeHtmlEntity(data.title)}</p>
-          <p className={styles.views}>조회수</p>
-          <div className={styles.info}>계정</div>
-          <p className={styles.description}>설명하는공간이래</p>
+      <div className={styles.search_container}>
+        <img src={data.thumbnails.medium.url} className={styles.search_img}></img>
+        <div className={styles.search_metadata}>
+          <p className={styles.search_title}>{decodeHtmlEntity(data.title)}</p>
+          <p className={styles.search_views}>조회수</p>
+          <div className={styles.search_info}>계정</div>
+          <p className={styles.search_description}>설명하는공간이래</p>
+        </div>
+      </div>
+    );
+  } else if (type === "related") {
+    return (
+      <div className={styles.related_container}>
+        <img src='C:\IT\project\Youtube_Clone\public\youtube_logo.png' className={styles.related_img}></img>
+        <div className={styles.related_metadata}>
+          {/* 아래 이름 고쳐주기 */}
+          <p className={styles.related_title}>{true?"ee":"Ee"}</p>
+          <p className={styles.related_views}>조회수</p>
+          <div className={styles.related_info}>계정</div>
+          <p className={styles.related_description}>설명하는공간이래</p>
         </div>
       </div>
     );
   } else if (type === "watch") {
-    console.log(data.id.videoId);
+    // console.log(data.id.videoId);
     return (
       <iframe
         id="ytplayer"
         type="text/html"
-        width="640"
-        height="360"
+        width="900"
+        height="550"
         src={`https://www.youtube.com/embed/${data.id.videoId}?autoplay=1&origin=http://example.com`}
         frameborder="0"
       ></iframe>

@@ -1,15 +1,40 @@
-.container{
+.watch {
   display: flex;
-  flex-direction: row;
   flex-grow: 1;
-  background-color: pink;
   padding: 1rem 6rem 0 6rem;
+  /* align-items: center; */
+  flex-grow: 1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   align-items: center;
-  flex-grow: 1;
+  width: 900;
+  background-color: white;
 }
-.main{
-  flex-grow: 1;
+
+.container {
+  width: 900px;
+  margin: 12px 0px 24px 0px;
+  background-color: lightblue;
 }
-.side{
+
+.info {
+  font-size: 20px;
+  line-height: 2.8rem;
+  font-weight: 600;
+
+}
+
+.comment {
+  width: 100%;
+}
+
+.side {
+  margin-left: 24px;
+  height: max-content;
+  background-color: lightcoral;
   flex-basis: 402px;
 }
