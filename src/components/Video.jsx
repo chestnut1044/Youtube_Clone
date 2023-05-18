@@ -19,7 +19,7 @@ export default function Video({ key, type, data }) {
         </div>
       </div>
     );
-  } else if (type === "main") {
+  } else if (type === "watch") {
     return <div>메인이래요</div>;
   }
 }

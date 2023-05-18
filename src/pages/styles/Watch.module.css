@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: pink;
+  padding: 1rem 6rem 0 6rem;
+  align-items: center;
+  flex-grow: 1;
+}
+.main{
+  flex-grow: 1;
+}
+.side{
+  flex-basis: 402px;
+}

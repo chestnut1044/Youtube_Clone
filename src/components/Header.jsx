@@ -8,14 +8,17 @@ import { MdKeyboardVoice } from "react-icons/md";
 import { BsYoutube, BsBell } from "react-icons/bs";
 import { BiVideoPlus } from "react-icons/bi";
 
-export default function Header({ handleToggle, setSearchQuery }) {
+export default function Header({ sideToggle, setSideToggle, setSearchQuery }) {
+  const handleSideToggleClick = () => {
+    setSideToggle(!sideToggle)
+  }
   return (
     <header className={styles.header}>
       <div className={styles.header_lh}>
         <Button
           icon={<RxHamburgerMenu />}
           tooltip={""}
-          onClick={handleToggle}
+          onClick={handleSideToggleClick}
         />
         <Link to={`/`} className={styles.link}>
           <div className={styles.logo}>
@@ -25,7 +28,9 @@ export default function Header({ handleToggle, setSearchQuery }) {
         </Link>
       </div>
       <div className={styles.searchbar}>
-        <SearchBar setSearchQuery={setSearchQuery} />
+        <SearchBar
+          setSearchQuery={setSearchQuery}
+        />
         <Button icon={<MdKeyboardVoice />} tooltip={"음성으로 검색"} />
       </div>
       <ul className={styles.header_rh}>

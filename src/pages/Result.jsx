@@ -7,8 +7,12 @@ import { useOutletContext } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function Result() {
-  const [searchQuery] = useOutletContext();
+  const [searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo] = useOutletContext();
   const [data, setData] = useState([]);
+
+  // useEffect(() => {
+  //   setSideToggle(true);
+  // }, []);
 
   useEffect(() => {
     fetch(`/data/keyword/${searchQuery}.json`)
@@ -32,7 +36,11 @@ export default function Result() {
           data.items.map((videoData) => {
             if (videoData.id.kind === "youtube#video") {
               return (
-                <Link to={`/watch?${videoData.id.videoId}`} className={styles.link}>
+                <Link
+                  to={`/watch?${videoData.id.videoId}`}
+                  className={styles.link}
+                  onClick={()=>setCurrentVideo(videoData.id.videoId)}
+                  >
                   <Video
                     key={videoData.id}
                     type={"search"}

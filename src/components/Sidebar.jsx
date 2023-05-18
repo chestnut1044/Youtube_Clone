@@ -18,20 +18,13 @@ import { RiThumbUpLine, RiThumbUpFill } from "react-icons/ri";
 import { HiOutlineSaveAs, HiSaveAs } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
-const handleHomeClick = () => {
-  console.log("핸");
-};
-export default function Sidebar() {
-  return (
+export default function Sidebar({ sideToggle }) {
+
+  if (sideToggle) return (
     <div className={styles.sidebar}>
       <div className={styles.staticList}>
         <Link to={`/`} className={styles.link}>
-          <SidebarList
-            icon={<RiHome5Line />}
-            type={"홈"}
-            message={"홈"}
-            onClick={handleHomeClick}
-          />
+          <SidebarList icon={<RiHome5Line />} type={"홈"} message={"홈"} />
         </Link>
         <Link to={`/shorts`} className={styles.link}>
           <SidebarList
@@ -111,4 +104,7 @@ export default function Sidebar() {
       </div>
     </div>
   );
+  else{
+    console.log("ㄴㄴ")
+  }
 }

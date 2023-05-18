@@ -328,7 +328,7 @@ button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에�
 
 
 ## 👍 구현하면서 마주친 오류
-> **리액트 라우터를 사용해 페이지별로 경로를 잡아주는 도중 발생한 문제!**
+> **리액트 라우터를 사용해 페이지별로 경로를 잡아주는 도중 발생한 문제**<br/>
 <br/> 사진처럼 에러메세지는 따로 표시되지 않았고, 무한 로딩 되는 상태
 ![ㄴㄴ](public\images\react-router_error.png) 
   <br/> 🔷 예상되는 이유 1. 네트워크 문제 
@@ -337,3 +337,48 @@ button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에�
   <br/> 사실 리액트 라우터 자체의 문제라고 생각을 못했던 이유가 리액트 라우터만 install 하고 경로 잡아줬을때는 실행이 잘되다가 react-icons 설치후 문제가 생겨 모듈 충돌인줄 알았다. 모듈 하나씩 import하고 실행해도 똑같은 현상 발생..
   <br/> 🔷 예상되는 이유 3. 리액틀 라우터 버전문제 (해결완료)
   <br/> 아무리 생각해봐도 리액트 라우터 문제인 것 같아 리액트 라우터 버전 관련 구글링을 해보니 버전 5와 버전6의 문법이 달라 버전을 강제로 5로 낮춘다는 글이 많이 보였다. 이 프로젝트의 라우터 버전은 6.10이었고 공식문서에서 버전 6.10에 맞는 코드를 짰기 때문에 계속 헤메이다가 버전 5로 다운그레이드하니 해결됨
+
+> **useOutletContext으로 setState의 파라미터를 받아왔을 때 문자열로 인식되는 문제**<br/>
+> Root 컴포넌트에서 Outlet context를 통해 props를 아래와 같이 전달해줬다.
+>```jsx
+>export default function Root() {
+>  const [sideToggle, setSideToggle] = useState(true);
+>  const [searchQuery, setSearchQuery] = useState("");
+>  return (
+>    <div className={styles.root}>
+>      <Headers
+>        setSearchQuery={setSearchQuery}
+>        sideToggle={sideToggle}
+>        setSideToggle={setSideToggle}
+>      />
+>      <div className={styles.main}>
+>        <Sidebar sideToggle={sideToggle} />
+>        <Outlet context={[searchQuery, sideToggle, setSideToggle]} />
+>      </div>
+>    </div>
+>  );
+>}
+>```
+> Outlet에서 보여주는 자식요소 Container에서 아래처럼 useOutletContext를 사용해 props를 받아왔는데 이게 에러의 원인이 되었다. 
+>```jsx
+>export default function Container() {
+>  const [setSideToggle] = useOutletContext();
+>  const [searchQuery, sideToggle, setSideToggle] = useOutletContext();
+>  useEffect(() => {
+>    setSideToggle(false);
+>  }, []);
+>  return (
+>    <div className={styles.container}>
+>      <Video />
+>      <Video />
+>      <Video />
+>      <Video />
+>      <Video />
+>      <Video />
+>    </div>
+>  );
+>}
+>```
+> 나는 Container에서 setSideToggle만 사용할 생각이었고 searchQuery와 sideToggle 은 필요하지 않기 때문에
+```const [setSideToggle] = useOutletContext();``` 로 적어줬는데 ```const [searchQuery, sideToggle, setSideToggle] = useOutletContext();``` 처럼 내부 파라미터를 전부 적어주어야 인식가능했다.
+

@@ -7,21 +7,34 @@
   padding: 0;
   position: sticky;
   overflow-y: hidden;
-} 
+}
 
 .sidebar:hover {
   overflow-y: auto;
 }
 
-.staticList{
-  padding: 12px 12px 0 12px ;
+*::-webkit-scrollbar {
+  width: 12px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.subscribeList{
-  padding: 0 12   px 0 12px ;
+*::-webkit-scrollbar-thumb {
+  height: 20%;
+  background-color: #949494;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
 }
 
-.link{
-  color: black;
+.staticList {
+  padding: 12px 12px 0 12px;
+}
+
+.subscribeList {
+  padding: 0 12px 0 12px;
+}
+
+.link {
+  color: var(--color-black);
   text-decoration: none;
 }
