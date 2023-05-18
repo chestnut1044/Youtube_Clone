@@ -31,9 +31,12 @@
 }
 
 .subscribeList {
-  padding: 0 12px 0 12px;
+  padding: 12px;
 }
-
+.subscribe{
+  padding: 6px 12px 6px 12px;
+  font-size: 16px;
+}
 .link {
   color: var(--color-black);
   text-decoration: none;

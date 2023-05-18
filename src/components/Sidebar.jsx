@@ -88,7 +88,7 @@ export default function Sidebar({ sideToggle }) {
       </div>
 
       <div className={styles.subscribeList}>
-        <h4></h4>
+        <p className={styles.subscribe}>구독</p>
         <SidebarList icon={"아"} type={"계정"} message={"계정"} />
         <SidebarList icon={"아"} type={"계정"} message={"계정"} />
         <SidebarList icon={"아"} type={"계정"} message={"계정"} />
