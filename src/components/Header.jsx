@@ -10,7 +10,7 @@ import { BiVideoPlus } from "react-icons/bi";
 
 export default function Header({ sideToggle, setSideToggle, setSearchQuery }) {
   const handleSideToggleClick = () => {
-    setSideToggle(!sideToggle)
+    setSideToggle([!sideToggle[0], false])
   }
   return (
     <header className={styles.header}>

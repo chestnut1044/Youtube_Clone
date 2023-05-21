@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Headers from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import styles from "./styles/Root.module.css";
 import { Outlet } from "react-router-dom";
 
 export default function Root() {
-  const [sideToggle, setSideToggle] = useState(true);
+  const [sideToggle, setSideToggle] = useState([true, false]);
   const [searchQuery, setSearchQuery] = useState("");
   const [currentVideo, setCurrentVideo] = useState("");
-  console.log(currentVideo)
   return (
     <div className={styles.root}>
       <Headers
@@ -18,7 +17,7 @@ export default function Root() {
         setCurrentVideo={setCurrentVideo}
       />
       <div className={styles.main}>
-        <Sidebar sideToggle={sideToggle} />
+        <Sidebar sideToggle={sideToggle} setSideToggle={setSideToggle}/>
         <Outlet context={[searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo]} />
       </div>
     </div>

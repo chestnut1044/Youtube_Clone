@@ -4,12 +4,15 @@ import styles from "./styles/Container.module.css";
 import Video from "../components/Video";
 
 export default function Container() {
-  const [searchQuery, sideToggle, setSideToggle] = useOutletContext();
-  
-  // useEffect(() => {
-  //   setSideToggle(true);
-  // }, []);
-  
+  const [searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo] = useOutletContext();
+  useEffect(()=>{
+    if(sideToggle[1]){
+      setSideToggle([!sideToggle[0], false])
+    }
+    else{
+      setSideToggle([sideToggle[0], false])
+    }
+  })
   return (
     <div className={styles.container}>
       <Video />

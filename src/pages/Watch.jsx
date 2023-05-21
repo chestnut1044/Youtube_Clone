@@ -12,7 +12,9 @@ export default function Watch() {
   ] = useOutletContext();
 
   useEffect(() => {
-    setSideToggle(false);
+    if(sideToggle[0]){
+      setSideToggle([false, true]);
+    }
   }, []);
   const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   return (

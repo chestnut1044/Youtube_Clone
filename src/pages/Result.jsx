@@ -10,14 +10,13 @@ export default function Result() {
   const [searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo] = useOutletContext();
   const [data, setData] = useState([]);
 
-  // useEffect(() => {
-  //   setSideToggle(true);
-  // }, []);
 
   useEffect(() => {
     fetch(`/data/keyword/${searchQuery}.json`)
       .then((res) => res.json())
-      .then((res) => setData(res));
+      .then((res) => setData(res))
+      .then(()=>{
+        sideToggle[1] ? setSideToggle([!sideToggle[0], false]) : setSideToggle([sideToggle[0], false])})
   }, [searchQuery]);
 
   return (
