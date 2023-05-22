@@ -18,7 +18,7 @@ export default function Root() {
       />
       <div className={styles.main}>
         <Sidebar sideToggle={sideToggle} setSideToggle={setSideToggle}/>
-        <Outlet context={[searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo]} />
+        <Outlet  context={[searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo]} />
       </div>
     </div>
   );
