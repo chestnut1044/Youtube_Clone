@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
 .search_container {
   display: flex;
   width: 100%;
@@ -63,4 +64,47 @@
 }
 .related_description {
   font-size: 12px;
+}
+.container_container{
+  background-color: pink;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+}
+
+.container_img{
+  background-color: white;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+}
+.container_metadata{
+  display: flex;
+  padding-top: 10px;
+}
+.container_info{
+  flex-basis: 40px;
+  flex-shrink: 0;
+  margin: 12px 12px 0px 0px;
+
+}
+
+
+.container_detailmetadata{
+  padding-right: 25px;
+}
+
+.container_title{
+  font-size: var(--font-size-text3);
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: var(--font-family-main);
+}
+
+.container_views{
+
+}
+
+
+.container_description{
+
 }

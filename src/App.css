@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
+
 :root {
+  /* color code */
   --color-white: white;
   --color-black: #0F0F0F;
   --color-red: #ff0000;
@@ -14,9 +16,19 @@
   --color-point-blue: #1C62B9;
 
   /* --font-logo: */
-  --font-main: 'Roboto', 'Arial' sans-serif;
+  --font-family-main: 'Roboto', 'Arial' sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  --font-size-text1:12px;
+  --font-size-text2:14px;
+  --font-size-text3:16px;
+  --font-size-text4:18px;
+  --font-size-text5:20px;
+  --font-size-text6:22px;
+  --font-size-text7:24px;
+  --font-size-text8:26px;
+  --font-size-text9:28px;
 }
 
 *{
-  font-family: var(--font-main);
+  font-family: var(--font-family-main);
 }
