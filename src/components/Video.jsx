@@ -61,7 +61,7 @@ export default function Video({ key, type, data }) {
           <div className={styles.container_detailmetadata}>
             <p className={styles.container_title}>{data.snippet.title}</p>
             <p className={styles.container_channel}>{data.snippet.channelTitle}</p>
-            <p className={styles.container_description}>{`조회수 ${viewCountCalc(data.statistics.viewCount)} · ${publishedAtCalc(data.snippet.publishedaAt)}`}</p>
+            <p className={styles.container_description}>{`조회수 ${viewCountCalc(data.statistics.viewCount)} · ${publishedAtCalc(data.snippet.publishedAt)}`}</p>
           </div>
         </div>
       </div>
@@ -86,10 +86,27 @@ export default function Video({ key, type, data }) {
 
 
 function viewCountCalc(n){
-  // Math.round(Number(n)*0.00001)*0.1
-  return '100만회';
+  n = n*0.0001
+  if (String(n.toFixed(1)).slice(-1) == '0'){
+    return `${n.toFixed(0)}만회`;
+  }
+  return `${n.toFixed(1)}만회`;
 }
 
 function publishedAtCalc(n){
-  return '100분전';
+  let current = new Date();
+  let prev = new Date(n);
+  let time = current.getTime()-prev.getTime()
+  if(time <60){
+    return `${time}초전`
+  }
+  else if(time<360){
+    return `${time/60}분전`
+  }
+  else if(time<21600){
+    return `${time/360}시간전`
+  }
+  else{
+    return `${Math.floor(time/(1000*60*60*24))}일전`
+  }
 }

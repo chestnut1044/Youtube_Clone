@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(199, 199, 250);
+  /* background-color: rgb(199, 199, 250); */
   width: 100vw;
   margin: 0;
   padding: 45px;
