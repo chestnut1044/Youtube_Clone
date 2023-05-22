@@ -35,7 +35,7 @@
 ### 리팩토링 하고싶은 요소
 - 브라우저별로 사이즈 체크
 - 성능 개선
-- 
+- 무한스크롤
 
 
 ## 👍고민한 부분
@@ -314,6 +314,26 @@ button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에�
 >  }
 >```
 > Video 컴포넌트 외부에서 위와 같이 entity값을 디코딩 하는 함수를 만들어 data가 들어가는부분에서 사용해 주었다.
+
+
+<!-- useEffect 정리하기 -->
+
+<!-- 말줄임표 두줄
+
+.container_title{
+  font-size: var(--font-size-text3);
+  font-family: var(--font-family-main);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+ -->
+
+
 
 <br/>
 

@@ -53,15 +53,15 @@ export default function Video({ key, type, data }) {
     return (
       <div className={styles.container_container}>
         <img
-          src="public\images\icon2.png"
+          src={data.snippet.thumbnails.medium.url}
           className={styles.container_img}
         ></img>
         <div className={styles.container_metadata}>
           <div className={styles.container_info}>계정</div>
           <div className={styles.container_detailmetadata}>
-            <p className={styles.container_title}>{true ? "VINXEN - 우울한 노래 모음 / 가사 (lyrics)" : "Ee"}</p>
-            <p className={styles.container_views}>조회수</p>
-            <p className={styles.container_description}>설명하는공간이래</p>
+            <p className={styles.container_title}>{data.snippet.title}</p>
+            <p className={styles.container_channel}>{data.snippet.channelTitle}</p>
+            <p className={styles.container_description}>{`조회수 ${viewCountCalc(data.statistics.viewCount)} · ${publishedAtCalc(data.snippet.publishedaAt)}`}</p>
           </div>
         </div>
       </div>
@@ -82,4 +82,14 @@ export default function Video({ key, type, data }) {
   src="https://www.youtube.com/embed/11cta61wi0g?autoplay=0&controls=0modestbranding&enablejsapi"
   className={styles.img}
 ></iframe> */
+}
+
+
+function viewCountCalc(n){
+  // Math.round(Number(n)*0.00001)*0.1
+  return '100만회';
+}
+
+function publishedAtCalc(n){
+  return '100분전';
 }
