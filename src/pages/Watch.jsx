@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useOutletContext } from "react-router-dom";
+import { useOutletContext, Link } from "react-router-dom";
 import styles from "./styles/Watch.module.css";
 import Video from "../components/Video";
 import Account from "../components/Account";
@@ -24,7 +24,7 @@ export default function Watch() {
       setSideToggle([false, true]);
     }
   }, []);
-  const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
     <watch className={styles.watch_conrainer}>
       <div className={styles.main}>
@@ -60,10 +60,20 @@ export default function Watch() {
       </div>
       <div className={styles.side}>
         <hr />
-        {relateVideo !== undefined && relateVideo.items.map((data) => {
-          console.log(data)
-          return <Video type="related" data={data}></Video>;
-        })}
+
+        {relateVideo !== undefined &&
+          relateVideo.items.map((videoData) => {
+            return (
+              <Link
+                to={`/watch?${videoData.id.videoId}`}
+                className={styles.link}
+                onClick={() => setCurrentVideo(videoData)}
+                preventScrollReset={false}
+              >
+                <Video type="related" data={videoData}></Video>
+              </Link>
+            );
+          })}
       </div>
     </watch>
   );

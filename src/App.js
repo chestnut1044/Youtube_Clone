@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./pages/Root";
 import Result from "./pages/Result";
 import Container from "./pages/Container";
-import Shorts from "./pages/Shorts";
 import NotFound from "./pages/NotFound";
 import Watch from "./pages/Watch";
 
@@ -28,11 +27,7 @@ const router = createBrowserRouter([
         path: `watch/*`,
         element: <Watch />,
       },
-      {
-        // 쇼츠
-        path: "shorts/*",
-        element: <Shorts />,
-      },
+
       {
         // 에러 페이지
         path: "*",
