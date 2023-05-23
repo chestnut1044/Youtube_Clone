@@ -14,12 +14,6 @@ export default function Container() {
 
   const [mostPopularVideos, setMostPopularVideos] = useState();
 
-  useEffect(() => {
-    fetch("/data/mostPopular.json")
-      .then((res) => res.json())
-      .then((res) => setMostPopularVideos(res))
-      .then((res) => console.log(mostPopularVideos));
-  }, []);
 
   useEffect(() => {
     fetch("/data/mostPopular.json")

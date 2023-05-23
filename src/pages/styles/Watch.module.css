@@ -1,38 +1,50 @@
-.watch {
+.watch_conrainer {
   display: flex;
-  flex-grow: 1;
-  padding: 1rem 6rem 0 6rem;
-  /* align-items: center; */
-  flex-grow: 1;
+  padding: 1rem 0 0 6rem;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-items: center;
-  width: 900;
-  background-color: white;
+  width: 900px;
+  background-color: palegoldenrod;
 }
 
-.container {
-  width: 900px;
-  margin: 12px 0px 24px 0px;
+.snippet_title {
+  display: flex;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.7rem;
+}
+
+.channer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
   background-color: lightblue;
 }
-
-.info {
-  font-size: 20px;
-  line-height: 2.8rem;
-  font-weight: 600;
-
+.rating_button_container{
+  display: flex;
+  justify-content: space-between;
+  background-color: forestgreen;
 }
-
-.comment {
+.description_container{
+  background-color: var(--color-gray);
+}
+.comment_container {
+  align-self: flex-start;
   width: 100%;
+  margin: 12px 12px 0 0;
+  background-color: gray;
+
 }
 
 .side {
+  padding: 0 6rem 0 0;
   margin-left: 24px;
   height: max-content;
   background-color: lightcoral;
