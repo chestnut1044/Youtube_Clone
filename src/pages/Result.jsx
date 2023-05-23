@@ -43,7 +43,7 @@ export default function Result() {
                   <Video
                     key={videoData.id}
                     type={"search"}
-                    data={videoData.snippet}
+                    data={videoData}
                   />
                 </Link>
               );

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useOutletContext } from "react-router-dom";
 import styles from "./styles/Watch.module.css";
 import Video from "../components/Video";
@@ -12,7 +12,13 @@ export default function Watch() {
     currentVideo,
     setCurrentVideo,
   ] = useOutletContext();
-
+  const [relateVideo, setRelatedVideo] = useState();
+  useEffect(() => {
+    fetch("/data/related/연관동영상.json")
+      .then((res) => res.json())
+      .then((res) => setRelatedVideo(res))
+      .then((res) => console.log(relateVideo));
+  }, []);
   useEffect(() => {
     if (sideToggle[0]) {
       setSideToggle([false, true]);
@@ -37,7 +43,9 @@ export default function Watch() {
             />
           )}
         </div>
-        <div className={styles.snippet_title}>{currentVideo.snippet.title}</div>
+        <div className={styles.snippet_title}>
+          {decodeHtmlEntity(currentVideo.snippet.title)}
+        </div>
         <div className={styles.channer_container}>
           <Account></Account>
           <div className={styles.rating_button_container}>
@@ -52,10 +60,14 @@ export default function Watch() {
       </div>
       <div className={styles.side}>
         <hr />
-        {a.map((data) => {
-          return <Video type="related"></Video>;
+        {relateVideo !== undefined && relateVideo.items.map((data) => {
+          console.log(data)
+          return <Video type="related" data={data}></Video>;
         })}
       </div>
     </watch>
   );
+}
+function decodeHtmlEntity(str) {
+  return new DOMParser().parseFromString(str, "text/html").body.textContent;
 }

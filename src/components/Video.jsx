@@ -1,21 +1,17 @@
 import React, { useEffect } from "react";
 import styles from "./styles/Video.module.css";
 
-const decodeHtmlEntity = (str) => {
-  return new DOMParser().parseFromString(str, "text/html").body.textContent;
-};
-
 export default function Video({ key, type, data }) {
   if (type === "search") {
     return (
       <div className={styles.search_container}>
         <img
-          src={data.thumbnails.medium.url}
+          src={data.snippet.thumbnails.medium.url}
           className={styles.search_img}
         ></img>
         <div className={styles.search_metadata}>
-          <p className={styles.search_title}>{decodeHtmlEntity(data.title)}</p>
-          <p className={styles.search_views}>조회수</p>
+          <p className={styles.search_title}>{decodeHtmlEntity(data.snippet.title)}</p>
+          <p className={styles.search_views}>{`조회수 ${viewCountCalc(100000)} · ${publishedAtCalc(data.snippet.publishedAt)}`}</p>
           <div className={styles.search_info}>계정</div>
           <p className={styles.search_description}>설명하는공간이래</p>
         </div>
@@ -25,15 +21,14 @@ export default function Video({ key, type, data }) {
     return (
       <div className={styles.related_container}>
         <img
-          src="C:\IT\project\Youtube_Clone\public\youtube_logo.png"
+          src={data.snippet.thumbnails.medium.url}
           className={styles.related_img}
         ></img>
         <div className={styles.related_metadata}>
           {/* 아래 이름 고쳐주기 */}
-          <p className={styles.related_title}>{true ? "ee" : "Ee"}</p>
-          <p className={styles.related_views}>조회수</p>
+          <p className={styles.related_title}>{data.snippet.title}</p>
           <div className={styles.related_info}>계정</div>
-          <p className={styles.related_description}>설명하는공간이래</p>
+          <p className={styles.related_views}>{`조회수 ${viewCountCalc(100000)} · ${publishedAtCalc(data.snippet.publishedAt)}`}</p>
         </div>
       </div>
     );
@@ -84,6 +79,9 @@ export default function Video({ key, type, data }) {
 ></iframe> */
 }
 
+function decodeHtmlEntity(str){
+  return new DOMParser().parseFromString(str, "text/html").body.textContent;
+}
 
 function viewCountCalc(n){
   n = n*0.0001
@@ -96,17 +94,24 @@ function viewCountCalc(n){
 function publishedAtCalc(n){
   let current = new Date();
   let prev = new Date(n);
-  let time = current.getTime()-prev.getTime()
-  if(time <60){
+  let time = (current.getTime()-prev.getTime())/(1000)
+  console.log(n)
+  if(time <60){ // 60초 = 1분 1분보다 작다면 초전으로 표기
     return `${time}초전`
   }
-  else if(time<360){
+  else if(time<360){ // 360초  = 60분 = 1시간 1시간보다 작다면 분전으로 표기
     return `${time/60}분전`
   }
-  else if(time<21600){
-    return `${time/360}시간전`
+  else if(time<86400){ // 86,400초 = 1440분 = 24시간 = 1일 1일보다 작다면 시간전으로 표기
+    return `${time/60*60}시간전`
+  }
+  else if(time<2419200/4){ //  = 28일보다 작다면 개월전으로 표기
+    return `${Math.floor(time/(60*60*24))}일전`
+  }
+  else if(time<2419200){
+    return `${Math.floor(time/(60*60*24*7))}주전`
   }
   else{
-    return `${Math.floor(time/(1000*60*60*24))}일전`
+    return `${Math.floor(time/(60*60*24*28))}개월전`
   }
 }

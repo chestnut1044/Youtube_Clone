@@ -8,7 +8,6 @@
   flex-direction: column;
   flex-grow: 1;
   width: 900px;
-  background-color: palegoldenrod;
 }
 
 .snippet_title {
@@ -47,6 +46,5 @@
   padding: 0 6rem 0 0;
   margin-left: 24px;
   height: max-content;
-  background-color: lightcoral;
   flex-basis: 402px;
 }
