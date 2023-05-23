@@ -5,7 +5,7 @@ import Result from "./pages/Result";
 import Container from "./pages/Container";
 import NotFound from "./pages/NotFound";
 import Watch from "./pages/Watch";
-
+import Channel from "./pages/Channel";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +27,11 @@ const router = createBrowserRouter([
         path: `watch/*`,
         element: <Watch />,
       },
+      {
+        // 검색 결과 알려줌
+        path: `channel/*`,
+        element: <Channel />,
+      },
 
       {
         // 에러 페이지
@@ -34,7 +39,7 @@ const router = createBrowserRouter([
         element: <NotFound />,
       },
     ],
-  }
+  },
 ]);
 
 function App() {
