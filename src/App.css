@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-
 :root {
   /* color code */
   --color-white: white;
@@ -31,4 +28,10 @@
 
 *{
   font-family: var(--font-family-main);
+}
+
+hr{
+  background-color: var(--color-semi-dk-gray);
+  height: 1px;
+  border: 0;
 }

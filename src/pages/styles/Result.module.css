@@ -20,11 +20,6 @@
   border-radius: 10% 20px 20px 10%;
 }
 
-.hr{
-  background-color: var(--color-semi-dk-gray);
-  height: 1px;
-  border: 0;
-}
 .container{
   width: 100%;
 }

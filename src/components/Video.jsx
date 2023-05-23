@@ -44,7 +44,7 @@ export default function Video({ key, type, data }) {
         type="text/html"
         width="900"
         height="550"
-        src={`https://www.youtube.com/embed/${data.id.videoId}?autoplay=1&origin=http://example.com`}
+        src={`https://www.youtube.com/embed/${data}?autoplay=1&origin=http://example.com`}
         frameborder="0"
       ></iframe>
     );
@@ -78,7 +78,7 @@ export default function Video({ key, type, data }) {
   onMouseOver={handleMouseOver}
   
   width="360"
-  height="200"
+  height="200"publishedAtCalc
   src="https://www.youtube.com/embed/11cta61wi0g?autoplay=0&controls=0modestbranding&enablejsapi"
   className={styles.img}
 ></iframe> */
