@@ -8,6 +8,9 @@ export default function Root() {
   const [sideToggle, setSideToggle] = useState([true, false]);
   const [searchQuery, setSearchQuery] = useState("");
   const [currentVideo, setCurrentVideo] = useState("");
+  const [channel, setChannel] = useState("");
+
+
   return (
     <div className={styles.root}>
       <Headers
@@ -18,7 +21,7 @@ export default function Root() {
       />
       <div className={styles.main}>
         <Sidebar sideToggle={sideToggle} setSideToggle={setSideToggle}/>
-        <Outlet  context={[searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo]} />
+        <Outlet  context={[searchQuery, sideToggle, setSideToggle, currentVideo, setCurrentVideo, channel, setChannel]} />
       </div>
     </div>
   );

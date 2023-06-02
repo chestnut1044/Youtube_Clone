@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./styles/Video.module.css";
+import Account from './Account.jsx'
 
 export default function Video({ key, type, data }) {
   if (type === "search") {
@@ -13,7 +14,7 @@ export default function Video({ key, type, data }) {
           <p className={styles.search_title}>{decodeHtmlEntity(data.snippet.title)}</p>
           <p className={styles.search_views}>{`조회수 ${viewCountCalc(100000)} · ${publishedAtCalc(data.snippet.publishedAt)}`}</p>
           <div className={styles.search_info}>계정</div>
-          <p className={styles.search_description}>설명하는공간이래</p>
+          <p className={styles.search_description}>설명</p>
         </div>
       </div>
     );
@@ -52,7 +53,7 @@ export default function Video({ key, type, data }) {
           className={styles.container_img}
         ></img>
         <div className={styles.container_metadata}>
-          <div className={styles.container_info}>계정</div>
+          <div className={styles.container_info}><Account type={"container"} channelId={data.snippet.channelId}/></div>
           <div className={styles.container_detailmetadata}>
             <p className={styles.container_title}>{data.snippet.title}</p>
             <p className={styles.container_channel}>{data.snippet.channelTitle}</p>
@@ -95,7 +96,6 @@ function publishedAtCalc(n){
   let current = new Date();
   let prev = new Date(n);
   let time = (current.getTime()-prev.getTime())/(1000)
-  console.log(n)
   if(time <60){ // 60초 = 1분 1분보다 작다면 초전으로 표기
     return `${time}초전`
   }

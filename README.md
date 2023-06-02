@@ -404,3 +404,7 @@ button 태그 type 속성의 기본값이 submit이기 때문에 form 내부에�
 > 나는 Container에서 setSideToggle만 사용할 생각이었고 searchQuery와 sideToggle 은 필요하지 않기 때문에
 ```const [setSideToggle] = useOutletContext();``` 로 적어줬는데 ```const [searchQuery, sideToggle, setSideToggle] = useOutletContext();``` 처럼 내부 파라미터를 전부 적어주어야 인식가능했다.
 
+
+
+## 👍 클린 코드가 되기 위해서?
+> **useParam 사용**<br/>
